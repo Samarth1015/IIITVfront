@@ -50,7 +50,7 @@ const MainContent1 = () => {
 
   return (
     <>
-      <div className="w-screen self-center h-full flex flex-row-reverse justify-center">
+      <div className="w-screen self-center h-full flex fle flex-row-reverse justify-center">
         <div className="w-[40em] h-fit py-10">
           <Image
             src={"/d2.jpg"}
@@ -74,7 +74,7 @@ const MainContent1 = () => {
           </article>
         </div>
       </div>
-     
+
       <Events />
     </>
   );
