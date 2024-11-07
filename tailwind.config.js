@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./Jenil/Components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./samarth/Components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./Samarth/Components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
