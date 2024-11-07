@@ -53,7 +53,7 @@ const MainContent1 = () => {
       <div className="w-screen self-center h-full flex flex-row-reverse justify-center">
         <div className="w-[40em] h-fit py-10">
           <Image
-            src={"/d.JPG"}
+            src={"/d2.jpg"}
             className="s1-image w-[45em] pr-2 rounded-2xl md:h-[25em] md:pl-5"
             objectPosition="20% 10%"
             width={450}
