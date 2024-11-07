@@ -25,20 +25,20 @@ export default function Animate() {
   }, [photos.length]);
 
   return (
-    <div className="h-screen w-screen  overflow-hidden">
-      <div className=" h-28  z-20 absolute mt-96 m-[1200px] ">
-        <Announcement></Announcement>
+    <div className="h-screen w-screen  overflow-hidden ">
+      <div className=" h-28  z-20 absolute min-w-full md: flex  justify-center ml-96  mt-60  md:visible invisible  ">
+        <div>
+          <Announcement></Announcement>
+        </div>
       </div>
       <div className="flex" ref={slideshowRef}>
         {photos.map((photo, idx) => (
           <div key={idx} className="w-screen flex-shrink-0 mr-5">
-            <Image
+            <img
               src={photo}
               alt={`Slideshow Image ${idx + 1}`}
-              width={1920}
-              height={1080}
               layout="responsive"
-              className="object-cover"
+              className="object-cover "
             />
           </div>
         ))}
