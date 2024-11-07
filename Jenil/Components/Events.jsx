@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
+import Link from "next/link";
 
 const Events = () => {
   const eventsRef = useRef([]);
@@ -44,8 +45,9 @@ const Events = () => {
           backgroundPosition: "0 0%",
         }}
       >
-        <div className="bg-[#5c1b6e] h-16  md:h-24 rounded-t-xl">
-          <p className="font-medium text-[12px] text-center px-2 py-2">Cerebro 2024-25</p>
+        <div className="bg-[#5c1b6e] h-20  md:h-24 rounded-t-xl flex flex-col justify-start ">
+          <p className="font-medium text-[12px] md:text-xl text-center px-2 py-2 self-center">Cerebro 2024-25</p>
+                   <button className="self-center text-xs md:text-xl hover:bg-[#381342] active:scale-95 px-2 py-1 rounded-lg duration-100 transition-colors"><Link href={"https://cerebro.iiitvadodara.ac.in/"}>Know More</Link></button>
         </div>
       </div>
       <div
@@ -58,8 +60,10 @@ const Events = () => {
           backgroundPosition: "0 0%",
         }}
       >
-        <div className="bg-yellow-600 h-16  md:h-24 rounded-t-xl">
-          <p className="font-medium text-[12px] text-center px-2 py-2">IIITV (Intra) Web Hackathon</p>
+        <div className="bg-yellow-600 h-20  md:h-24 rounded-t-xl flex flex-col justify-start ">
+          <p className="font-medium text-[10px] text-center px-2 py-2 ">IIITV (Intra) Web Hackathon</p>
+          <button className="self-center text-xs md:text-xl hover:bg-yellow-700 active:scale-95 px-2 py-1 rounded-lg duration-100 transition-colors -mt-2 md:mt-0">Know More</button>
+      
         </div>
       </div>
       <div
@@ -72,8 +76,10 @@ const Events = () => {
           backgroundPosition: "0 0%",
         }}
       >
-        <div className="bg-[#ad3939] h-16  md:h-24 rounded-t-xl">
-          <p className="font-medium text-[12px] text-center px-2 py-2">TEDxIIITV 2023</p>
+        <div className="bg-[#ad3939] h-20  md:h-24 rounded-t-xl flex flex-col justify-start ">
+          <p className="font-medium text-[12px]  md:text-xl text-center px-2 py-2">TEDxIIITV 2023</p>
+                   <button className="self-center text-xs md:text-xl hover:bg-[#8d2f2f] active:scale-95 px-2 py-1 rounded-lg duration-100 transition-colors">Know More</button>
+        
         </div>
       </div>
     </div>

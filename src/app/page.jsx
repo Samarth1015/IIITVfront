@@ -9,6 +9,7 @@ export default function Home() {
       <div className=" flex flex-col overflow-x-hidden overflow-y-hidden">
         <Initialheader />
         <SecondHeader />
+        
         <MainContent1/>
       </div>
     </>
