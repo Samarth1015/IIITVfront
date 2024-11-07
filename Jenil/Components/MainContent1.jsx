@@ -38,7 +38,7 @@ const MainContent1 = () => {
       tl.from(
         ".s1-image",
         {
-          x: 350,
+          x: 100,
           opacity: 0,
           duration: 1.5,
           ease: "power3.out",
@@ -58,7 +58,7 @@ const MainContent1 = () => {
             objectPosition="20% 10%"
             width={450}
             height={100}
-            alt="Convocation 2024"
+            alt="Freshers 2024"
           />
         </div>
         <div className="self-center pr-2 max-w-[10em] md:max-w-none">
