@@ -22,14 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-<<<<<<< HEAD
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward"
-        />
-=======
         <title>IIIT Vadodara</title>
->>>>>>> 96294df29fdc4b94a903f936571ed5ea6a677bdf
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
