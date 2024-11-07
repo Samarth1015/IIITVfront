@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
 import Announcement from "./Announcement";
+import Hidden from "./hidden";
 
 export default function Animate() {
   const photos = [
@@ -26,7 +27,7 @@ export default function Animate() {
 
   return (
     <div className="h-screen w-screen  overflow-hidden ">
-      <div className=" h-28  z-20 absolute min-w-full md: flex  justify-center ml-96  mt-60  md:visible invisible  ">
+      <div className=" h-28  z-20 absolute min-w-full md:flex  justify-center ml-96  mt-60  hidden   ">
         <div>
           <Announcement></Announcement>
         </div>
@@ -42,6 +43,11 @@ export default function Animate() {
             />
           </div>
         ))}
+      </div>
+      <div className=" w-screen z-20 absolute md:hidden mt-4     ">
+        <div className="">
+          <Hidden></Hidden>
+        </div>
       </div>
     </div>
   );
