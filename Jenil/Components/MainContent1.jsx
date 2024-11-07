@@ -50,7 +50,7 @@ const MainContent1 = () => {
 
   return (
     <>
-      <div className="w-screen self-center h-full flex fle flex-row-reverse justify-center">
+      <div className="w-screen self-center h-full flex fle flex-row-reverse justify-between md:px-40">
         <div className="w-[40em] h-fit py-10">
           <Image
             src={"/d2.jpg"}
@@ -62,10 +62,10 @@ const MainContent1 = () => {
           />
         </div>
         <div className="self-center pr-2 max-w-[10em] md:max-w-none">
-          <p className="s1-text text-nowrap md:max-w-[8em] font-sans pl-2 text-[#003c5f] text-xl md:text-7xl font-extrabold">
+          <p className="s1-text text-nowrap md:max-w-[8em] font-sans pl-2 text-[#003c5f] text-xl md:text-7xl font-bold">
             Start Your
           </p>
-          <p className="s1-text text-nowrap md:max-w-[8em] font-sans self-center pl-2 text-[#003c5f] text-xl md:text-7xl font-extrabold">
+          <p className="s1-text text-nowrap md:max-w-[8em] font-sans self-center pl-2 text-[#003c5f] text-xl md:text-7xl font-bold">
             Future Today
           </p>
           <article className="s1-text text-blue-600 pl-3 md:px-4 py-2 md:max-w-[25em] text-[9px] md:text-lg rounded-lg">
