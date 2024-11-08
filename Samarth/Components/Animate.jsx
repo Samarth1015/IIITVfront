@@ -26,7 +26,7 @@ export default function Animate() {
   }, [photos.length]);
 
   return (
-    <div className="h-screen w-screen  overflow-hidden ">
+    <div className="md:h-screen w-screen  overflow-hidden mb-[20em] md:mb-0 ">
       <div className="">
         <div className=" h-28 w-full z-20 absolute  md:flex   mt-60  hidden justify-end ">
           <div className="mr-56">
