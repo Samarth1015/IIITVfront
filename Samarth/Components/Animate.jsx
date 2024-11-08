@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
 import Announcement from "./Announcement";
-import Hidden from "./hidden";
+import Hidden from "./Hidden";
 
 export default function Animate() {
   const photos = [
