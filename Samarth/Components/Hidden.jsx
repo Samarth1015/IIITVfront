@@ -37,7 +37,7 @@ export default function Hidden() {
     });
   }, []);
   return (
-    <div className="bg-[#032b43] text-white p-8   h-90 w-full overflow-hidden shadow-lg">
+    <div className="bg-[#032b43]  text-white p-8     overflow-hidden shadow-lg">
       <h2 className="text-3xl font-serif font-bold mb-4 mx-auto underline ">
         Announcement
       </h2>
