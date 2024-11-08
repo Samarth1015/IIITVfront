@@ -1,26 +1,39 @@
 'use client';
 import React, { useEffect } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const ExtraPage = () => {
   useEffect(() => {
-    // Ensure animations only run on the client side
-    if (typeof window !== 'undefined') {
-      gsap.from(".row", {
-        x: -200,
-        opacity: 0,
-        duration: 1,
-        stagger: 0.3,
-        scrollTrigger: {
-          trigger: ".row",
-          start: "top 80%", // Trigger animation when row enters viewport
-          toggleActions: "play none none none", // Play once
-        },
+    // Dynamically import gsap and ScrollTrigger on client side
+    import('gsap').then((gsapModule) => {
+      const gsap = gsapModule.default;
+      import('gsap/ScrollTrigger').then((scrollTriggerModule) => {
+        const ScrollTrigger = scrollTriggerModule.default;
+
+        // Register ScrollTrigger with GSAP
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Add animations using gsap.fromTo
+        gsap.fromTo(".row", 
+          {
+            // Initial state
+            x: -200,
+            opacity: 0,
+          }, 
+          {
+            // Final state
+            x: 0,
+            opacity: 1,
+            duration: 1,
+            stagger: 0.3,
+            scrollTrigger: {
+              trigger: ".row",
+              start: "top 80%", // Trigger animation when row enters viewport
+              toggleActions: "play none none none", // Play once
+            },
+          }
+        );
       });
-    }
+    });
   }, []);
 
   return (
@@ -38,7 +51,7 @@ const ExtraPage = () => {
       ></div>
 
       {/* Content Layer */}
-      <div className=" relative w-screen h-screen flex flex-col justify-center py-10 bg-[#003c5f]">
+      <div className="relative w-screen h-screen flex flex-col justify-center py-10 bg-[#003c5f]">
         <strong className="self-center text-white text-2xl font-sans py-12">Placements</strong>
 
         {/* Row 1 */}

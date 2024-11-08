@@ -92,7 +92,7 @@ const MainContent1 = () => {
       </div>
 
       <Events />
-      {/* Expand animation target div */}
+    
       <div className="expand-div w-6/12 h-12 opacity-60 bg-yellow-300 -mb-16 z-20"></div>
     </>
   );
