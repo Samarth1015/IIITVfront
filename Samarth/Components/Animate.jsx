@@ -27,9 +27,11 @@ export default function Animate() {
 
   return (
     <div className="h-screen w-screen  overflow-hidden ">
-      <div className=" h-28  z-20 absolute min-w-full md:flex  justify-center ml-96  mt-60  hidden   ">
-        <div>
-          <Announcement></Announcement>
+      <div className="">
+        <div className=" h-28 w-full z-20 absolute  md:flex   mt-60  hidden justify-end ">
+          <div className="mr-56">
+            <Announcement></Announcement>
+          </div>
         </div>
       </div>
       <div className="flex" ref={slideshowRef}>
@@ -45,9 +47,7 @@ export default function Animate() {
         ))}
       </div>
       <div className=" w-screen z-20 absolute md:hidden mt-4     ">
-        <div className="">
-          <Hidden></Hidden>
-        </div>
+        <Hidden></Hidden>
       </div>
     </div>
   );
