@@ -24,8 +24,8 @@ const ExtraPage = () => {
             // Final state
             x: 0,
             opacity: 1,
-            duration: 1,
-            stagger: 0.3,
+            duration: 0.5,
+            stagger: 0.9,
             scrollTrigger: {
               trigger: ".row",
               start: "top 80%", // Trigger animation when row enters viewport
