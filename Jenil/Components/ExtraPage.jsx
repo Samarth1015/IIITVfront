@@ -89,7 +89,7 @@ const ExtraPage = () => {
 
         {/* Row 3 */}
         <div className="row w-8/12 flex flex-row self-center gap-2 text-right z-20">
-          <div className="pl-24 ml-4 h-32 md:px-0 md:w-60 md:h-40  bg-[#0f0fff] flex flex-row-reverse">
+          <div className="pl-[120px] ml-4 h-32 md:px-0 md:w-60 md:h-40  bg-[#0f0fff] flex flex-row-reverse">
             <p className="self-center text-xl md:text-4xl font-bold">
               THE <br /> BEST
             </p>
