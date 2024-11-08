@@ -25,7 +25,8 @@ export default function RootLayout({ children }) {
         <title>IIIT Vadodara</title>
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning={true}
+        className="__variable_1e4310 __variable_c3aa02 antialiased"
       >
         {children}
       </body>
