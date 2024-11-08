@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col overflow-x-hidden overflow-y-hidden">
         <Initialheader />
         <SecondHeader />
-        <Animate />
+        {/* <Animate /> */}
         <MainContent1 />
         <ExtraPage />
         <Footer />
