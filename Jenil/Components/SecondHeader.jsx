@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect } from "react";
 import gsap from 'gsap';
+import Link from "next/link";
 
 const SecondHeader = () => {
   useEffect(() => {
@@ -34,10 +35,11 @@ const SecondHeader = () => {
         <div className="flex flex-row   ">
           <div className="text-center w-full border-2 px-3 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
             About
-          </div>
+          </div><Link href={'/Academics'} target="_blank">
           <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
             Academics
           </div>
+          </Link>
         </div>
         <div className="flex flex-row ">
           <div className="text-center w-full border-2 px-4 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
