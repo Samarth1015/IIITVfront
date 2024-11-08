@@ -22,7 +22,7 @@ const SecondHeader = () => {
   }, []);
 
   return (
-    <div className="w-full md:w-full mx-4 md:mx-20 pt-8 pb-2 md:my-10 md:h-[25em] border-l-[1px] md:border-l-2 border-b-[1px] md:border-b-2 border-yellow-300 flex flex-col items-center md:items-start">
+    <div className="bg-white w-full md:w-full mx-4 md:mx-20 pt-8 pb-2 md:mt-10 md:h-[25em] border-l-[1px] md:border-l-2 border-b-[1px] md:border-b-2 border-yellow-300 flex flex-col items-center md:items-start">
       <p className="ready text-5xl sm:text-6xl md:text-[8em] lg:text-[10em] text-[#003c5f] font-bold md:pl-16 md:pt-16">
         INSPIRED
       </p>

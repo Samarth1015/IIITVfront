@@ -45,12 +45,28 @@ const MainContent1 = () => {
         },
         "-=1.5" // Start image animation slightly before text completes
       );
+
+      // Animate last div to expand width
+      gsap.fromTo(
+        ".expand-div",
+        { width: "0%" }, // Initial width
+        {
+          width: "50%", // Target width
+          duration: 1.5,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".expand-div",
+            start: "top 90%", // Trigger when element enters the viewport
+            toggleActions: "play none none none",
+          },
+        }
+      );
     }
   }, []);
 
   return (
     <>
-      <div className="w-screen self-center h-full flex fle flex-row-reverse justify-between md:px-40">
+      <div className="bg-white w-screen self-center h-full flex fle flex-row-reverse justify-between md:px-40">
         <div className="w-[40em] h-fit py-10">
           <Image
             src={"/d2.jpg"}
@@ -76,6 +92,8 @@ const MainContent1 = () => {
       </div>
 
       <Events />
+      {/* Expand animation target div */}
+      <div className="expand-div w-6/12 h-12 opacity-60 bg-yellow-300 -mb-16 z-20"></div>
     </>
   );
 };

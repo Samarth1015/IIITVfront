@@ -32,9 +32,9 @@ const Events = () => {
   return (
     <>
     <center>
-    <h1 className="md:text-5xl text-2xl font-bold text-[#003c5f] py-2 mb-4">Events</h1>
+    <h1 className="bg-white md:text-5xl text-2xl font-bold text-[#003c5f] py-2 pb-6 ">Events</h1>
   </center>{" "}
-    <div className="w-screen px-2 md:px-0 flex flex-row text-white justify-evenly gap-2 pb-2">
+    <div className="bg-white w-screen px-2 md:px-0 flex flex-row text-white justify-evenly gap-2 pb-2">
       <div
         ref={(el) => (eventsRef.current[0] = el)}
         className="w-60 max-w-60 h-36 md:h-72 flex flex-col-reverse"

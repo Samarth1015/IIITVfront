@@ -8,7 +8,7 @@ import { CiMenuKebab } from "react-icons/ci";
 const Initialheader = () => {
    const buttonStyle = "bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center";
    return (
-    <div className="w-full h-16 md:h-28 flex flex-row justify-between items-center px-2 md:px-5">
+    <div className="bg-white w-full h-16 md:h-28 flex flex-row justify-between items-center px-2 md:px-5">
       <Link href="/">
         <div className="flex flex-row items-center">
           <div className="flex-shrink-0">
