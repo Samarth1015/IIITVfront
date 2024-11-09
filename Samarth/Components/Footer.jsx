@@ -43,7 +43,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-[#032b43] text-white py-8 mt-4" ref={footerRef}>
+    <footer className="bg-[#032b43] text-white py-8 mt-4 " ref={footerRef}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-col">
         <div className="flex flex-col md:flex-row md:justify-between mb-8 footer-section">
           <div className="mb-8 md:mb-0 w-full md:flex flex-wrap justify-between">
@@ -81,7 +81,7 @@ export default function Footer() {
 
         <div className="bg-[#325462] w-full h-[0.09px] footer-section"></div>
 
-        <div className="flex justify-between space-x-6 mt-8 footer-section">
+        <div className="flex justify-between space-x-2 md:space-x-6 mt-8 footer-section">
           <div className="min-w-28">
             <h1 className="font-semibold md:text-4xl  mb-1 text-[#7FD2EF]">
               Important Link
@@ -131,7 +131,7 @@ export default function Footer() {
         <div className="bg-[#325462] w-full h-[0.09px] mt-10 footer-section"></div>
 
         <div className="text-center mt-8 text-sm text-gray-400 footer-section">
-          © Copyright 2024 | Champlain College Incorporated
+          @ Made By Jenil and Samarth
         </div>
       </div>
     </footer>
