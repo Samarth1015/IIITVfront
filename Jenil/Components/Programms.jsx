@@ -34,7 +34,7 @@ const Programms = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen mb-[7em] md:mb-12">
       <div className="w-full h-fit py-10 bg-[#003c5f] relative z-10 flex flex-col justify-start">
         <video
           className="absolute opacity-65 hover:opacity-40 -z-10 transition-all duration-150 inset-0 w-full h-full object-cover"
@@ -100,7 +100,7 @@ const Programms = () => {
         <div
           className="program-box -mt-10 md:mt-0 w-60 h-52 md:w-80 md:h-60 rounded-xl border-t-4 border-white bg-white flex flex-col-reverse self-center opacity-0" // Initial opacity set to 0
           style={{
-            backgroundImage: "url(/phd.jpg)",
+            backgroundImage: "url(/phd.webp)",
             backgroundSize: "contain",
             backgroundPosition: "50% 20%",
           }}>
