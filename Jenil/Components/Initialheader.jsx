@@ -5,7 +5,7 @@ import { PiBuildingsFill } from "react-icons/pi";
 import { FaGraduationCap } from "react-icons/fa";
 import { CiMenuKebab } from "react-icons/ci";
 
-const Initialheader = () => {
+const Initialheader = ({setMenu}) => {
   const buttonStyle =
     "bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center";
   return (
@@ -46,8 +46,10 @@ const Initialheader = () => {
           <FaGraduationCap className="self-center text-2xl p-1 md:p-0 md:ml-2" />
         </div>
         </Link>
-        <div className="bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center hover:bg-[#003c5f] hover:text-white">
-          <span className="hidden md:inline">Menu</span>
+        <div onClick={()=>{
+          setMenu((prev)=>!prev)
+        }} className="bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center hover:bg-[#003c5f] hover:text-white">
+          <span className="hidden md:inline" >Menu</span>
           <CiMenuKebab className="self-center text-xl md:text-2xl p-1 md:p-0 md:ml-2" />
         </div>
       </div>
