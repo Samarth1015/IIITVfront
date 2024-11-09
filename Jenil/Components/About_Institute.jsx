@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useEffect, useRef } from "react";
 import Initialheader from "./Initialheader";
 import { gsap } from "gsap";
@@ -59,26 +59,27 @@ const About_Institute = () => {
             backgroundPosition: "10% 20%",
             backgroundSize: "cover",
             opacity: 0.5,
-          }}
-        ></div>
+          }}></div>
       </div>
       <div
-        className="w-full h-fit py-10 flex-col flex justify-start p-4 md:p-8"
-        ref={headerRef}
-      >
-        <p className="program-heading text-[#001a3f] font-bold self-center text-3xl md:text-6xl z-10 mb-2 md:mb-5">
+        className="w-full h-fit py-10 flex flex-col  justify-center md:justify-start p-4 md:p-8"
+        ref={headerRef}>
+        <p className="program-heading text-[#fefeff] font-bold self-center text-3xl md:text-6xl z-10 mb-2 md:mb-5">
           Institute
         </p>
         <div className="underline-bar w-6/12 md:w-2/12 rounded-xl h-1 md:h-1 bg-yellow-300 self-center mb-10"></div>
         <div
-          className="w-8/12 bg-gradient-to-br from-[#003c5f] to-[#001a3f] border-2 border-white md:w-10/12 bg-opacity-80 shadow-lg rounded-xl self-center flex flex-col md:flex-row overflow-hidden"
-          ref={contentRef}
-        >
-          <div className="w-full md:w-1/2 p-4 md:p-6 text-white flex flex-col justify-center">
-            <p className="mb-1 text-yellow-300 font-bold">About the Institute</p>
-            <article className="text-sm text-white md:text-base leading-relaxed space-y-4 indent-3">
+          className="w-full  bg-gradient-to-br from-[#4b511f] to-[#001a3f] border-2 border-white md:w-10/12 bg-opacity-80 shadow-lg rounded-xl self-center flex flex-col-reverse md:flex-row overflow-hidden"
+          ref={contentRef}>
+          <div className="w-full md:w-1/2  p-4 md:p-6 text-white flex flex-col justify-center">
+            <p className="mb-1 text-yellow-300 font-bold">
+              About the Institute
+            </p>
+            <article className="text-[11px] text-white md:text-base leading-relaxed space-y-4 indent-3">
               <p>
-                <strong>Indian Institute of Information Technology Vadodara (IIITV)</strong>{" "}
+                <strong>
+                  Indian Institute of Information Technology Vadodara (IIITV)
+                </strong>{" "}
                 is established by the Ministry of Education (MoE), Government of
                 India under Public Private Partnership (PPP) as Institute of
                 National Importance. The institute aims to develop new knowledge
@@ -97,13 +98,12 @@ const About_Institute = () => {
             </article>
           </div>
           <div
-            className="w-full md:w-1/2 bg-teal-800"
+            className="w-full h-32 md:h-auto md:w-1/2 bg-teal-800"
             style={{
               backgroundImage: "url(/institute.jpeg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
-            }}
-          ></div>
+            }}></div>
         </div>
       </div>
     </>

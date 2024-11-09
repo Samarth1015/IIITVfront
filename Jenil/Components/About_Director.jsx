@@ -1,8 +1,8 @@
-'use client'
-import Image from 'next/image';
-import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+"use client";
+import Image from "next/image";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,12 +18,12 @@ const About_Director = () => {
           opacity: 1,
           y: 0,
           duration: 1.5,
-          ease: 'power4.out',
+          ease: "power4.out",
           scrollTrigger: {
             trigger: containerRef.current,
-            start: 'top 75%', // Adjust this for laptop view
-            end: 'top 25%',   // Adjust this for exit animation
-            toggleActions: 'play none none none',
+            start: "top 75%", // Adjust this for laptop view
+            end: "top 25%", // Adjust this for exit animation
+            toggleActions: "play none none none",
             markers: false,
           },
         }
@@ -36,19 +36,18 @@ const About_Director = () => {
   return (
     <div
       ref={containerRef}
-      className='w-full h-screen mt-28 flex flex-row justify-center'
-    >
-      <div className='w-1/2 h-full p-10 flex flex-col justify-center'>
+      className="w-full h-fit mt-12 md:mt-28 flex flex-row justify-center">
+      <div className="w-1/2 self-center  md:h-auto h-full p-2 md:p-8 flex flex-col justify-center">
         <Image
           src={"/director.png"}
-          className='self-center rounded-xl shadow-xl shadow-black'
+          className="self-center  md:w-80 rounded-xl shadow-xl shadow-black"
           width={450}
           height={550}
-          alt='Director of IIITV'
+          alt="Director of IIITV"
         />
       </div>
-      <div className='w-1/2 h-full p-10 flex flex-col justify-center'>
-        <p className='text-xl -ml-10'>
+      <div className="w-1/2  px-2 md:w-1/2 h-full md:p-10 flex flex-col   justify-start md:justify-center">
+        <p className="text-[10px] md:text-2xl md:-ml-10">
           "Welcome to IIIT Vadodara, where innovation meets excellence. Our
           institution is dedicated to inspiring personal growth and driving
           societal advancement through high-quality education. At IIIT Vadodara,
@@ -60,8 +59,8 @@ const About_Director = () => {
           become part of a community committed to excellence and impact.
           Together, let’s build a brighter future."
         </p>
-        <p className='font-bold mt-10 -ml-10 text-xl text-gray-700'>
-          Prof Dharmendra Singh <br /> Director
+        <p className="font-bold mt-2 md:mt-10 md:-ml-10 text-[12px] md:text-xl text-gray-700">
+          Prof Dharmendra Singh <br /> Director of IIIT Vadodara
         </p>
       </div>
     </div>
