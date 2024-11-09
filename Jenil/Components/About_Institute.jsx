@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Initialheader from "./Initialheader";
+// import Initialheader from "./Initialheader";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -50,7 +50,7 @@ const About_Institute = () => {
 
   return (
     <>
-      <Initialheader />
+      {/* <Initialheader /> */}
       <div className="absolute -z-10 top-0 w-full h-screen bg-black">
         <div
           className="absolute -z-10 top-0 w-full h-screen bg-black"
