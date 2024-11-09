@@ -43,7 +43,10 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-[#032b43] text-white py-8 " ref={footerRef}>
+    <footer
+      className="bg-[#032b43] text-white py-8 static bottom-0 w-full "
+      ref={footerRef}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-col">
         <div className="flex flex-col md:flex-row md:justify-between mb-8 footer-section">
           <div className="mb-8 md:mb-0 w-full md:flex flex-wrap justify-between">

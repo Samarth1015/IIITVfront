@@ -1,11 +1,11 @@
-'use client'
+"use client";
 import React, { useEffect } from "react";
-import gsap from 'gsap';
+import gsap from "gsap";
 import Link from "next/link";
 
 const SecondHeader = () => {
   useEffect(() => {
-    let tl = gsap.timeline()
+    let tl = gsap.timeline();
     tl.from(".ready", {
       x: -50,
       opacity: 0.5,
@@ -13,13 +13,13 @@ const SecondHeader = () => {
       ease: "power3.out",
       stagger: 0.07,
     });
-    tl.from('.secondLine',{
-      y:50,
+    tl.from(".secondLine", {
+      y: 50,
       opacity: 0,
       duration: 1,
       ease: "power3.out",
       stagger: 0.07,
-    })  
+    });
   }, []);
 
   return (
@@ -33,23 +33,29 @@ const SecondHeader = () => {
       </div>
       <div className="w-10/12 flex flex-col md:flex-row gap-1 pr-4 md:gap-2 md:mt-6 md:ml-16 mt-2 md:px-2 ">
         <div className="flex flex-row   ">
-        <Link className="w-full "href={'/About'} target="_blank">
-          <div className="text-center w-full border-2 px-3 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
-            About
-          </div>
-          </Link><Link className="w-full " href={'/Academics'} target="_blank">
-          <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
-            Academics
-          </div>
+          <Link className="w-full " href={"/About"} target="_blank">
+            <div className="text-center w-full border-2 px-3 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
+              About
+            </div>
+          </Link>
+          <Link className="w-full " href={"/Academics"} target="_blank">
+            <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
+              Academics
+            </div>
           </Link>
         </div>
         <div className="flex flex-row ">
-          <div className="text-center w-full border-2 px-4 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
-            Admission
-          </div>
-          <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
-            Placements
-          </div>
+          <Link href={"/admission"} target="_blank">
+            {" "}
+            <div className="text-center w-full border-2 px-4 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
+              Admission
+            </div>
+          </Link>
+          <Link href={"https://iiitvadodara.ac.in/placement.php"}>
+            <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
+              Placements
+            </div>
+          </Link>
         </div>
       </div>
     </div>
