@@ -36,6 +36,7 @@ const [menu , setMenu] = useState(false)
         <div className=" faculty-card   flex flex-col md:flex-row py-5 justify-evenly">
           <Faculty
             imgurl={"/jb.jpg"}
+            link="https://iiitvadodara.ac.in/jignesh_bhatt.php"
             name={"Dr. Jignesh S. Bhatt"}
             degree={`Ph.D. (Information and Communication Technology)\nDA-IICT, Gandhinagar`}
             li1={"Signal and Image Processing"}
@@ -52,6 +53,7 @@ const [menu , setMenu] = useState(false)
           />
           <Faculty
             imgurl={"/nk.png"}
+            link="https://iiitvadodara.ac.in/naveen_kumar.php"
             name={"Dr. Naveen Kumar"}
             degree={`PhD (Computer Science): DA-IICT Gandhinagar
 MTech (IT): GGSIPU Delhi
@@ -63,6 +65,7 @@ MTech (IT): GGSIPU Delhi
         </div>
         <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
           <Faculty
+          link="https://iiitvadodara.ac.in/bhupendra_kumar.php"
             imgurl={"/bk.jpg"}
             name={"Dr. Bhupendra Kumar"}
             degree={`Ph.D. (Wireless Communication)\nIIT, Delhi`}
@@ -72,6 +75,7 @@ MTech (IT): GGSIPU Delhi
           />
           <Faculty
             imgurl={"/kkj.jpg"}
+            link="https://iiitvadodara.ac.in/kamal_kishor_jha.php"
             name={"Dr. Kamal Kishor Jha"}
             degree={`Ph.D. (VLSI Design)\nIndian Institute of Information Technology and Management, Gwalior`}
             li1={"Nanoelectronics"}
@@ -80,6 +84,7 @@ MTech (IT): GGSIPU Delhi
           />
           <Faculty
             imgurl={"/sd.jpg"}
+            link="https://iiitvadodara.ac.in/sunandita_debnath.php"
             name={"Dr. Sunandita Debnath"}
             degree={`Ph.D. (Wireless Sensor Networks)\nNIT, Silchar`}
             li1={"Wireless Sensor Networks"}
@@ -89,6 +94,7 @@ MTech (IT): GGSIPU Delhi
         </div>
         <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
           <Faculty
+          link="https://iiitvadodara.ac.in/ajay_nath.php"
             imgurl={"/an.jpg"}
             name={"Dr. Ajay Nath"}
             degree={`Ph.D. (Physics)\nIIT Patna`}
@@ -99,12 +105,14 @@ MTech (IT): GGSIPU Delhi
           <Faculty
             imgurl={"/ac.jpg"}
             name={"Dr. Barnali Chetia"}
+            link="https://iiitvadodara.ac.in/barnali_chetia.php"
             degree={`Ph.D. (Linguistics)\nJNU, New Delhi`}
             li1={"Applied Linguistics"}
             li2={"Sociolinguistics"}
             li3={"Second Language Acquisition, ELT, Discourse Analysis, Gender Studies"}
           />
           <Faculty
+          link="https://iiitvadodara.ac.in/dhirendra.php"
             imgurl={"/ds.jpg"}
             name={"Dr. Dhirendra Sinha"}
             degree={`Ph.D. (Physics)\nIIT Kanpur`}
@@ -116,12 +124,14 @@ MTech (IT): GGSIPU Delhi
         <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
           <Faculty
             imgurl={"/dr.jpg"}
+            link="https://iiitvadodara.ac.in/dibyendu_roy.php"
             name={"Dr. Dibyendu Roy"}
             degree={`Ph.D. (Mathematics)\nIIT Kharagpur`}
             li1={"Cryptology"}
             li2={"Design Analysis of Boolean Function"}
           />
           <Faculty
+          link="https://iiitvadodara.ac.in/swapnil_lokhande.php"
             imgurl={"/sl.jpg"}
             name={"Dr. Swapnil A. Lokhande"}
             degree={`Ph.D. (Mathematics)\nIIT Bombay`}
@@ -130,6 +140,7 @@ MTech (IT): GGSIPU Delhi
            <Faculty
             imgurl={"/pm.jpg"}
             name={"Dr. Pramit Mazumdar"}
+            link="https://iiitvadodara.ac.in/pramit_mazumdar.php"
             degree={`PhD (Computer Science & Engineering): NIT, Rourkela
 `}
             li1={"Multimedia Signal Processing (360-degree, Point Cloud), Extended "}
