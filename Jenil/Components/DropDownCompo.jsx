@@ -29,8 +29,8 @@ const DropDownCompo = ({ setMenu }) => {
   };
 
   return (
-    <div className={`fixed w-full h-screen flex flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-500 ease-in-out`}>
-      <div className='w-5/12 h-full bg-[#003c5f] flex flex-row justify-end'>
+    <div className={`fixed w-full h-screen flex  flex-col-reverse md:flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} md:transition-transform duration-500 ease-in-out`}>
+      <div className='py-10 w-full md:w-5/12 h-full bg-[#003c5f] flex flex-row justify-center md:justify-end'>
         <Link href="/">
           <div className="flex flex-row items-center absolute top-0 left-0">
             <div className="flex-shrink-0">
@@ -53,38 +53,37 @@ const DropDownCompo = ({ setMenu }) => {
             </div>
           </div>
         </Link>
-        <div className='self-center'>
-          <div className="w-full flex flex-row justify-end cursor-pointer my-5">
-            <p onClick={() => handleImageChange(bgIMages[1])} className='text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:-translate-x-10 my-8 transition-transform'>
+        <div className='self-center flex flex-col justify-center'>
+          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+            <p onClick={() => handleImageChange(bgIMages[1])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Faculty
             </p>
           </div>
-          <div className="w-full flex flex-row justify-end cursor-pointer my-5">
-            <p onClick={() => handleImageChange(bgIMages[2])} className='text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:-translate-x-10 my-8 transition-transform ease-in-out'>
+          <div className="w-full flex flex-row justify-center md:justify-endd cursor-pointer my-5">
+            <p onClick={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Placements
             </p>
           </div>
-          <div onClick={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-end cursor-pointer my-5">
-            <p className='text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:-translate-x-10 my-8 transition-transform'>
+          <div onClick={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+            <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Hostels
             </p>
           </div>
-          <div onClick={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-end cursor-pointer my-5">
-            <p className='text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:-translate-x-10 my-8 transition-transform ease-in-out'>
+          <div onClick={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+            <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
             </p>
           </div>
         </div>
       </div>
-      <div className={`w-7/12 h-full transition-opacity duration-500 ${fadeInOut ? 'opacity-100' : 'opacity-0'}`} style={{
+      <div className={ ` w-full mt-10 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500 ${fadeInOut ? 'opacity-100' : 'opacity-0'}`} style={{
         backgroundImage: `url(${image})`,
-        backgroundSize: "contain",
         backgroundRepeat:"no-repeat",
         backgroundPosition: "center"
       }}>
         <RxCross2
           onClick={() => setMenu(prev => !prev)}
-          className='hover:rotate-180  absolute right-0 top-0 text-3xl m-7 hover:scale-110 duration-200 transition-all hover:font-bold active:scale-95'
+          className='hover:rotate-180  absolute right-0 top-0 text-3xl m-2 md:m-7 hover:scale-110 duration-200 transition-all hover:font-bold active:scale-95'
         />
       </div>
     </div>
