@@ -7,14 +7,19 @@ import Footer from "../../../Samarth/Components/Footer";
 import Seat from "../../../Samarth/Components/Seat";
 
 export default function Admission() {
-  const [menu, setMenu] = useState(false);
+  const [menu , setMenu] = useState(false)
   return (
-    <div>
+    <> <div  className={`flex flex-col overflow-x-hidden overflow-y-hidden ${menu ? "hidden" : ""}`}>
       <Initialheader setMenu={setMenu} />
       {!menu ? undefined : <DropDownCompo setMenu={setMenu} />}
       <Seat></Seat>
 
       <Footer />
-    </div>
+    </div> <div
+        className={`flex flex-col overflow-x-hidden overflow-y-hidden ${
+          !menu ? "hidden" : ""
+        }`}>
+        {menu && <DropDownCompo  setMenu={setMenu}/>}
+      </div> </>
   );
 }
