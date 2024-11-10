@@ -13,7 +13,7 @@ const DropDownCompo = ({ setMenu }) => {
   }, []);
 
   return (
-    <div className={`fixed w-full h-screen flex flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-500 ease-in-out`}>
+    <div className={`fixed w-full  h-screen flex flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-500 ease-in-out`}>
       <div className='w-1/2 h-full bg-[#003c5f] flex flex-row justify-end'>
         <Link href="/">
           <div className="flex flex-row items-center absolute top-0 left-0">
@@ -60,7 +60,7 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
         </div>
       </div>
-      <div className='w-1/2 h-full bg-white'> 
+      <div className='w-1/2 h-full '> 
         <RxCross2
           onClick={() => setMenu(prev => !prev)}
           className='absolute right-0 top-0 text-3xl m-7 hover:scale-110 duration-200 transition-all hover:font-bold active:scale-95'

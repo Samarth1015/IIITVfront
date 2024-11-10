@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 
-const SecondHeader = () => {
+const SecondHeader = ({ menu }) => {
   useEffect(() => {
+    // Restart the animation whenever `menu` changes
     let tl = gsap.timeline();
     tl.from(".ready", {
       x: -50,
@@ -20,7 +21,7 @@ const SecondHeader = () => {
       ease: "power3.out",
       stagger: 0.07,
     });
-  }, []);
+  }, [menu]); // Add `menu` as a dependency
 
   return (
     <div className="bg-white w-full md:w-full mx-4 md:mx-20 pt-8 pb-2 md:mt-10 md:h-[25em] border-l-[1px] md:border-l-2 border-b-[1px] md:border-b-2 border-yellow-300 flex flex-col items-center md:items-start">

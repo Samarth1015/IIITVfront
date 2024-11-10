@@ -62,7 +62,7 @@ const About_Institute = () => {
           }}></div>
       </div>
       <div
-        className="w-full h-fit py-10 flex flex-col  justify-center md:justify-start p-4 md:p-8"
+        className="w-full h-screen py-10 flex flex-col  justify-center  p-4 md:p-8"
         ref={headerRef}>
         <p className="program-heading text-[#fefeff] font-bold self-center text-3xl md:text-6xl z-10 mb-2 md:mb-5">
           Institute
