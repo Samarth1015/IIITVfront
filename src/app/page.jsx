@@ -32,7 +32,7 @@ export default function Home({ Component, pageProps }) {
         <Footer />
       </div>
       <div className={`flex flex-col overflow-x-hidden overflow-y-hidden ${!menu ? "hidden" : ""}`}>
-        {menu && <DropDownCompo />}
+        {menu && <DropDownCompo setMenu={setMenu}/>}
       </div>
     </AppContext.Provider>
   );
