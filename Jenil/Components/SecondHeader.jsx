@@ -33,7 +33,7 @@ const SecondHeader = ({ menu }) => {
         <span className="font-bold px-1 md:px-2">REALITY!</span>
       </div>
       <div className="w-10/12 flex flex-col md:flex-row gap-1 pr-4 md:gap-2 md:mt-6 md:ml-16 mt-2 md:px-2 ">
-        <div className="flex flex-row  my-4 ">
+        <div className="flex flex-row  md:my-4 ">
           <Link className="w-full " href={"/About"} target="_blank">
             <div className="text-center w-full border-2 px-3 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               About
@@ -45,14 +45,14 @@ const SecondHeader = ({ menu }) => {
             </div>
           </Link>
         </div>
-        <div className="flex flex-row my-4">
-          <Link href={"/admission"} target="_blank">
+        <div className="flex flex-row md:my-4">
+          <Link  className="w-full " href={"/admission"} target="_blank">
             {" "}
             <div className="text-center w-full border-2 px-4 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               Admission
             </div>
           </Link>
-          <Link href={"https://iiitvadodara.ac.in/placement.php"}>
+          <Link className="w-full " href={"https://iiitvadodara.ac.in/placement.php"}>
             <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               Placements
             </div>

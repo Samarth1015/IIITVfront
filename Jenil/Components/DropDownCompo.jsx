@@ -6,13 +6,27 @@ import { RxCross2 } from "react-icons/rx";
 
 const DropDownCompo = ({ setMenu }) => {
   let bgIMages = {
-    1: "/faculty.jpeg",
-    2: "/placement.webp",
-    3: "/hostel.jpg",
-    4: "/calender.jpg"
-  }
+    1: { 
+      image: "/faculty.jpeg",
+      gradient: 'from-[#001a3f] to-[#4b511f]' 
+    },
+    2: { 
+      image: "/placement.webp", 
+      gradient: 'from-[#060802] to-[#2d91c4]' 
+    },
+    3: { 
+      image: "/hostel.jpg", 
+      gradient: 'from-[#5f6366] to-[#2e2e2e]' 
+    },
+    4: { 
+      image: "/calender.jpg", 
+      gradient: 'from-[#060802] to-[#4e9186]' 
+    }
+  };
+  
   const [isVisible, setIsVisible] = useState(false);
-  const [image, setImage] = useState(bgIMages[1]); // Default background image
+  const [image, setImage] = useState(bgIMages[1].image); // Default background image
+  const [gradient, setGradient] = useState(bgIMages[1].gradient); // Default gradient
   const [fadeInOut, setFadeInOut] = useState(true); // State to control fade effect
 
   useEffect(() => {
@@ -23,14 +37,15 @@ const DropDownCompo = ({ setMenu }) => {
   const handleImageChange = (newImage) => {
     setFadeInOut(false); // Trigger fade-out
     setTimeout(() => {
-      setImage(newImage);
+      setImage(newImage.image);
+      setGradient(newImage.gradient);
       setFadeInOut(true); // Trigger fade-in after a brief delay
     }, 300); // Match this delay with the fade-out duration
   };
 
   return (
-    <div className={`fixed w-full h-screen flex  flex-col-reverse md:flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} md:transition-transform duration-500 ease-in-out`}>
-      <div className='py-10 w-full md:w-5/12 h-full bg-[#003c5f] flex flex-row justify-center md:justify-end'>
+    <div className={`fixed w-full h-screen flex flex-col-reverse md:flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} md:transition-transform duration-500 ease-in-out`}>
+      <div className={`py-10 w-full md:w-5/12 h-full bg-gradient-to-br  flex flex-row justify-center ${gradient} md:justify-end`}>
         <Link href="/">
           <div className="flex flex-row items-center absolute top-0 left-0">
             <div className="flex-shrink-0">
@@ -59,7 +74,7 @@ const DropDownCompo = ({ setMenu }) => {
               Faculty
             </p>
           </div>
-          <div className="w-full flex flex-row justify-center md:justify-endd cursor-pointer my-5">
+          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
             <p onClick={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Placements
             </p>
@@ -76,10 +91,12 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
         </div>
       </div>
-      <div className={ ` w-full mt-10 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500 ${fadeInOut ? 'opacity-100' : 'opacity-0'}`} style={{
+      <div className={`w-full mt-10 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500`} style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat:"no-repeat",
-        backgroundPosition: "center"
+        backgroundPosition: "center",
+        backgroundSize: "cover", // Make sure image covers the area
+        background: `linear-gradient(${gradient})` // Apply dynamic gradient
       }}>
         <RxCross2
           onClick={() => setMenu(prev => !prev)}
