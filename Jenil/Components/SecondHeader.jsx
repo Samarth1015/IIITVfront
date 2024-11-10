@@ -52,7 +52,7 @@ const SecondHeader = ({ menu }) => {
               Admission
             </div>
           </Link>
-          <Link href={"/stats"} target="_blank">
+          <Link  className="w-full " href={"/stats"} target="_blank">
             <div className="text-center w-full border-2 px-4 rounded-l-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               Placements
             </div>
