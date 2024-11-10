@@ -134,7 +134,7 @@ export default function Footer() {
         <div className="bg-[#325462] w-full h-[0.09px] mt-10 footer-section"></div>
 
         <div className="text-center mt-8 text-sm text-gray-400 footer-section">
-          @ Made By Jenil and Samarth
+          @ Made By Jenil and Samarth / Designed by Ankit Bhati
         </div>
       </div>
     </footer>
