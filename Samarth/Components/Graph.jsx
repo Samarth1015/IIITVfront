@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useEffect, useRef } from "react";
-import { BarChart } from "@mui/x-charts/BarChart";
+
 import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 import gsap from "gsap";
 
@@ -53,32 +53,7 @@ export default function Graph() {
             <span className="text-2xl"> Minimum package : 5 LPA</span>
           </div>
         </div>
-        <div className="graph w-full mt-28">
-          <BarChart
-            className="w-full"
-            series={[
-              { data: [5.34, 6.4, 13, 11.53, 14.08, 15.43, 11.34] },
-              { data: [4.8, 6, 7.2, 9, 13, 13.5, 9] },
-              { data: [3.5, 3.36, 4.5, 3.5, 4.2, 6, 5] },
-            ]}
-            height={290}
-            xAxis={[
-              {
-                data: [
-                  "2017-2018",
-                  "2018-2019",
-                  "2019-2020",
-                  "2020-2021",
-                  "2021-2022",
-                  "2022-2023",
-                  "2023-2024",
-                ],
-                scaleType: "band",
-              },
-            ]}
-            margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
-          />
-        </div>
+        <div className="graph w-full mt-28"></div>
       </div>
     </div>
   );
