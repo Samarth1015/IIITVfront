@@ -70,9 +70,11 @@ const DropDownCompo = ({ setMenu }) => {
         </Link>
         <div className='self-center flex flex-col justify-center'>
           <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+           <Link href={'/Faculty'}>
             <p onClick={() => handleImageChange(bgIMages[1])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Faculty
             </p>
+            </Link>
           </div>
           <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
             <p onClick={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
