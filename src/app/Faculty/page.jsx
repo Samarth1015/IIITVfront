@@ -1,9 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Faculty from "../../../Jenil/Components/Faculty";
 import Footer from "../../../Samarth/Components/Footer";
+import Initialheader from "../../../Jenil/Components/Initialheader";
+import DropDownCompo from "../../../Jenil/Components/DropDownCompo";
 
 // Register the ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -26,9 +28,10 @@ const Page = () => {
       },
     });
   }, []);
-
-  return (
-    <div className="flex bg-gradient-to-b from-[#001a3f] to-[#2c207a] w-full flex-col overflow-x-hidden overflow-y-hidden">
+const [menu , setMenu] = useState(false)
+  return (<>
+    <div className={`flex bg-gradient-to-b from-[#001a3f] to-[#4230bb] w-full flex-col overflow-x-hidden overflow-y-hidden ${menu ? "hidden" : ""}`}>
+      <Initialheader setMenu={setMenu}/>
       <div className="w-full h-32 flex flex-col justify-center ">
         <h1 className="self-center font-bold text-4xl text-white">
           Our Faculty
@@ -50,9 +53,9 @@ const Page = () => {
             name={"Pramit Mazumdar"}
             degree={`PhD (Computer Science & Engineering): NIT, Rourkela
 `}
-            li1={"Recommender Systems"}
-            li2={"Machine Learning"}
-            li3={"Deep Learning, Generative Modeling"}
+            li1={"Multimedia Signal Processing (360-degree, Point Cloud), Extended "}
+            li2={"Reality (VR, AR, MR), Visual Quality Assessment, Conversational "}
+            li3={"Recommender Systems,Autism Spectrum Disorder"}
           />
           <Faculty
             imgurl={"/bk.jpg"}
@@ -135,14 +138,20 @@ const Page = () => {
             degree={`PhD (Computer Science): DA-IICT Gandhinagar
 MTech (IT): GGSIPU Delhi
 `}
-            li1={"Classical and Quantum Field Theory"}
-            li2={"Geometric Phases"}
-            li3={"Quantum Computation"}
+            li1={"Information security and privacy, Cloud computing"}
+       
           />
         </div>
       </div>
       <Footer />
     </div>
+    <div
+        className={`flex flex-col overflow-x-hidden overflow-y-hidden ${
+          !menu ? "hidden" : ""
+        }`}>
+        {menu && <DropDownCompo  setMenu={setMenu}/>}
+      </div>
+    </>
   );
 };
 
