@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Events from "./Events";
 
-const MainContent1 = () => {
+const MainContent1 = ({menu}) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       gsap.registerPlugin(ScrollTrigger);
@@ -62,7 +62,7 @@ const MainContent1 = () => {
         }
       );
     }
-  }, []);
+  }, [menu]);
 
   return (
     <>

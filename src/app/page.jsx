@@ -1,33 +1,39 @@
-"use client";
-
-import Image from "next/image";
+'use client'
+import { createContext, useContext, useState } from 'react';
+import dynamic from "next/dynamic";
 import Initialheader from "../../Jenil/Components/Initialheader";
 import SecondHeader from "../../Jenil/Components/SecondHeader";
 import MainContent1 from "../../Jenil/Components/MainContent1";
-import dynamic from "next/dynamic";
 import Animate from "../../Samarth/Components/Animate";
 import Footer from "../../Samarth/Components/Footer";
 import DropDownCompo from "../../Jenil/Components/DropDownCompo";
-import { useState, useEffect } from "react";
+
+const AppContext = createContext();
+
+export  function useMenuContext() {
+  return useContext(AppContext);
+}
 
 const ExtraPage = dynamic(() => import("../../Jenil/Components/ExtraPage"), {
   ssr: false,
 });
 
-export default function Home() {
+export default function Home({ Component, pageProps }) {
   const [menu, setMenu] = useState(false);
+
   return (
-    <div className="flex flex-col overflow-x-hidden overflow-y-hidden">
-      <>
+    <AppContext.Provider value={{ menu, setMenu }}>
+      <div className={`flex flex-col overflow-x-hidden overflow-y-hidden ${menu ? "hidden" : ""}`}>
         <Initialheader setMenu={setMenu} />
-        <SecondHeader />
+        <SecondHeader  menu={menu}/>
         <Animate />
-        <MainContent1 />
+        <MainContent1  menu={menu}/>
         <ExtraPage />
         <Footer />
-      </>
-
-      {!menu ? undefined : <DropDownCompo setMenu={setMenu} />}
-    </div>
+      </div>
+      <div className={`flex flex-col overflow-x-hidden overflow-y-hidden ${!menu ? "hidden" : ""}`}>
+        {menu && <DropDownCompo setMenu={setMenu}/>}
+      </div>
+    </AppContext.Provider>
   );
 }

@@ -36,7 +36,7 @@ const About_Director = () => {
   return (
     <div
       ref={containerRef}
-      className="w-full h-fit mt-12 md:mt-28 flex flex-row justify-center">
+      className="w-full h-fit mt-12 md:mt-16 pb-20 flex flex-row justify-center">
       <div className="w-1/2 self-center  md:h-auto h-full p-2 md:p-8 flex flex-col justify-center">
         <Image
           src={"/director.png"}

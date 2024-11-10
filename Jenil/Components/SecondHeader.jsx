@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 
-const SecondHeader = () => {
+const SecondHeader = ({ menu }) => {
   useEffect(() => {
+    // Restart the animation whenever `menu` changes
     let tl = gsap.timeline();
     tl.from(".ready", {
       x: -50,
@@ -20,10 +21,10 @@ const SecondHeader = () => {
       ease: "power3.out",
       stagger: 0.07,
     });
-  }, []);
+  }, [menu]); // Add `menu` as a dependency
 
   return (
-    <div className="bg-white w-full md:w-full mx-4 md:mx-20 pt-8 pb-2 md:mt-10 md:h-[25em] border-l-[1px] md:border-l-2 border-b-[1px] md:border-b-2 border-yellow-300 flex flex-col items-center md:items-start">
+    <div className="bg-white w-full md:w-full mx-4 md:mx-20 pt-8 pb-2 md:mt-10 md:h-[27em] border-l-[1px] md:border-l-2 border-b-[1px] md:border-b-2 border-yellow-300 flex flex-col items-center md:items-start">
       <p className="ready text-5xl sm:text-6xl md:text-[8em] lg:text-[10em] text-[#003c5f] font-bold md:pl-16 md:pt-16">
         INSPIRED
       </p>
@@ -32,7 +33,7 @@ const SecondHeader = () => {
         <span className="font-bold px-1 md:px-2">REALITY!</span>
       </div>
       <div className="w-10/12 flex flex-col md:flex-row gap-1 pr-4 md:gap-2 md:mt-6 md:ml-16 mt-2 md:px-2 ">
-        <div className="flex flex-row   ">
+        <div className="flex flex-row  md:my-4 ">
           <Link className="w-full " href={"/About"} target="_blank">
             <div className="text-center w-full border-2 px-3 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               About
@@ -44,8 +45,8 @@ const SecondHeader = () => {
             </div>
           </Link>
         </div>
-        <div className="flex flex-row ">
-          <Link href={"/admission"} target="_blank">
+        <div className="flex flex-row md:my-4">
+          <Link className="w-full " href={"/admission"} target="_blank">
             {" "}
             <div className="text-center w-full border-2 px-4 rounded-r-3xl text-[12px] md:text-md text-[#003c5f] font-medium rounded-t-3xl hover:rounded-md hover:bg-cyan-400 transition-all duration-200 py-2 bg-yellow-200">
               Admission
