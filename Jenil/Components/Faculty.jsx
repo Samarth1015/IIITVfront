@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 
-const Faculty = ({name , degree , li1 , li2 , li3 , imgurl}) => {
+const Faculty = ({name , degree , li1 , li2 , li3 , imgurl , link="sdf"}) => {
   return (
     <div className="h-80 self-center">
       {" "}
@@ -31,7 +32,7 @@ const Faculty = ({name , degree , li1 , li2 , li3 , imgurl}) => {
             {li2&&<li>{li2}</li>}
             {li3&&<li>{li3}</li>}
           </ul>
-          <button className="px-4 rounded-lg text-sm bg-yellow-300 active:scale-95 hover:scale-105 transition-all duration-200 hover:bg-[#192537] hover:text-white font-medium py-2">See More</button>
+         <Link href={link}><button className="px-4 rounded-lg text-sm bg-yellow-300 active:scale-95 hover:scale-105 transition-all duration-200 hover:bg-[#192537] hover:text-white font-medium py-2">See More</button></Link> 
         </div>
       </div>
     </div>
