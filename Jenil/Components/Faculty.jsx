@@ -7,7 +7,7 @@ const Faculty = ({name , degree , li1 , li2 , li3 , imgurl}) => {
       <div className="card ">
         <div className="first-content">
           <div
-            className="faculty-card card w-80 h-96 hover:scale-110 transition-all duration-300 hover:rounded-lg bg-[#2d4b76] flex flex-col-reverse self-center"
+            className=" card w-80 h-96 hover:scale-110 transition-all duration-300 hover:rounded-lg bg-[#2d4b76] flex flex-col-reverse self-center"
             style={{
               backgroundImage: `url(${imgurl})`,
               backgroundSize: "cover",

@@ -40,7 +40,7 @@ const About_Director = () => {
       <div className="w-1/2 self-center  md:h-auto h-full p-2 md:p-8 flex flex-col justify-center">
         <Image
           src={"/director.png"}
-          className="self-center  md:w-80 rounded-xl shadow-xl shadow-black"
+          className="self-center  md:w-80 rounded-xl shadow-md shadow-black"
           width={450}
           height={550}
           alt="Director of IIITV"
@@ -60,7 +60,7 @@ const About_Director = () => {
           Together, let’s build a brighter future."
         </p>
         <p className="font-bold mt-2 md:mt-10 md:-ml-10 text-[12px] md:text-xl text-gray-700">
-          Prof Dharmendra Singh <br /> Director of IIIT Vadodara
+          Prof Dharmendra Singh <br /> Director
         </p>
       </div>
     </div>

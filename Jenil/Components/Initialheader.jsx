@@ -7,7 +7,7 @@ import { CiMenuKebab } from "react-icons/ci";
 
 const Initialheader = ({setMenu}) => {
   const buttonStyle =
-    "bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center";
+    "bg-[#2d4b76] text-white hover:bg-[#20385a] text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center";
   return (
     <div className="bg-white w-full h-16 md:h-28 flex flex-row justify-between items-center px-2 md:px-5">
       <Link href="/">
@@ -48,7 +48,7 @@ const Initialheader = ({setMenu}) => {
         </Link>
         <div onClick={()=>{
           setMenu((prev)=>!prev)
-        }} className="bg-sky-400 text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-sky-500 font-medium md:font-bold flex flex-row items-center hover:bg-[#003c5f] hover:text-white">
+        }} className="bg-[#2d4b76]  text-white text-xs p-1 md:p-2 rounded-lg hover:rounded-2xl  cursor-pointer transition-all duration-150 active:bg-[#20385a] font-medium md:font-bold flex flex-row items-center hover:bg-[#20385a] hover:text-white">
           <span className="hidden md:inline" >Menu</span>
           <CiMenuKebab className="self-center text-xl md:text-2xl p-1 md:p-0 md:ml-2" />
         </div>
