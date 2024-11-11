@@ -44,7 +44,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-[#032b43] text-white py-8 static bottom-0 w-full "
+      className="bg-[#032b43] text-white py-8 mr-6 static bottom-0 w-full "
       ref={footerRef}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-col">
