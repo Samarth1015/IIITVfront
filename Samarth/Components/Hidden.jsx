@@ -53,7 +53,7 @@ export default function Hidden() {
       <div className="flex  items-center  ">
         <div>
           <Link
-            href={"*/announcement"}
+            href={"/announcement"}
             className="mx-auto text-yellow-500 hover:text-lg duration-200"
           >
             {" "}
