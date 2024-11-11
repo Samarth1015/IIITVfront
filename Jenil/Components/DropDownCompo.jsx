@@ -16,7 +16,7 @@ const DropDownCompo = ({ setMenu }) => {
     },
     3: { 
       image: "/hostel.jpg", 
-      gradient: 'from-[#5f6366] to-[#2e2e2e]' 
+      gradient: 'from-[#000000] to-[#8c8076] ' 
     },
     4: { 
       image: "/calender.jpg", 
@@ -85,11 +85,13 @@ const DropDownCompo = ({ setMenu }) => {
             </Link>
 
           </div>
+          <Link href={'/Hostel'}>
           <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
             <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Hostels
             </p>
           </div>
+          </Link>
           <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
             <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
@@ -97,7 +99,7 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
         </div>
       </div>
-      <div className={`w-full mt-10 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500`} style={{
+      <div className={`w-full mt-10 md:mt-0 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500`} style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat:"no-repeat",
         backgroundPosition: "center",

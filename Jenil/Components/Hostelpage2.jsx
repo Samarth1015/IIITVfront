@@ -31,30 +31,30 @@ const Hostelpage2 = () => {
   }, []);
 
   const amenities = [
-    { icon: <FaHandHoldingWater className=" self-center text-7xl" />, label: "RO Water" },
-    { icon: <MdFastfood className=" self-center text-7xl" />, label: "Dining Hall" },
-    { icon: <CgGym className=" self-center text-7xl" />, label: "Gymnasium" },
-    { icon: <GiMusicalScore className=" self-center text-7xl" />, label: "Musical instruments" },
-    { icon: <PiSecurityCamera className=" self-center text-7xl" />, label: "Round the Clock Security" },
-    { icon: <MdDryCleaning className=" self-center text-7xl" />, label: "House Keeping" },
-    { icon: <FaAmbulance className=" self-center text-7xl" />, label: "Emergency Vehicle" },
-    { icon: <FaFemale className=" self-center text-7xl" />, label: "Female Caretaker" },
+    { icon: <FaHandHoldingWater className="text-2xl md:text-7xl" />, label: "RO Water" },
+    { icon: <MdFastfood className="text-2xl md:text-7xl" />, label: "Dining Hall" },
+    { icon: <CgGym className="text-2xl md:text-7xl" />, label: "Gymnasium" },
+    { icon: <GiMusicalScore className="text-2xl md:text-7xl" />, label: "Musical instruments" },
+    { icon: <PiSecurityCamera className="text-2xl md:text-7xl" />, label: "Round the Clock Security" },
+    { icon: <MdDryCleaning className="text-2xl md:text-7xl" />, label: "House Keeping" },
+    { icon: <FaAmbulance className="text-2xl md:text-7xl" />, label: "Emergency Vehicle" },
+    { icon: <FaFemale className="text-2xl md:text-7xl" />, label: "Female Caretaker" },
   ];
 
   return (
-    <div className="w-full pt-20 h-screen bg-white flex flex-col justify-start">
+    <div className="w-full py-20 h-fit bg-white flex flex-col justify-start">
       <h1 className="mt-10 text-4xl self-center text-[#20385a] font-bold">
         Hostel Amenities
       </h1>
-      <div className="w-10/12 h-fit py-10 grid grid-cols-4 gap-4 self-center">
+      <div className="w-10/12 h-fit py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-10 self-center">
         {amenities.map((item, index) => (
           <div
             key={index}
-            className="h-60 w-60 flex flex-col gap-2 justify-center hover:border-2 text-[#20385a] transition-all duration-150 hover:bg-[#20385a] hover:text-white border-[#20385a]"
+            className="h-20 ml-7 md:ml-0 md:h-60 w-20 md:w-60  flex flex-col items-center justify-center md:gap-2 hover:border-2 text-[#20385a] transition-all  duration-150 hover:bg-[#20385a] hover:text-white border-[#20385a] text-center"
             ref={(el) => (amenitiesRef.current[index] = el)}
           >
             {item.icon}
-            <p className="self-center text-2xl py-2 text-center">{item.label}</p>
+            <p className="text-[10px] md:text-2xl py-2">{item.label}</p>
           </div>
         ))}
       </div>

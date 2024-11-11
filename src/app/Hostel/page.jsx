@@ -5,6 +5,8 @@ import HostelPage from '../../../Jenil/Components/HostelPage'
 import Hostelpage2 from '../../../Jenil/Components/Hostelpage2'
 import HostelFooter from '../../../Jenil/Components/HostelFooter'
 import Footer from '../../../Samarth/Components/Footer'
+import DropDownCompo from '../../../Jenil/Components/DropDownCompo'
+
 const page = () => {
     const [menu , setMenu ] = useState(false)
   return (
