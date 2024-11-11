@@ -5,6 +5,7 @@ import { MdLabelImportant } from "react-icons/md";
 import gsap from "gsap";
 import Image from "next/image";
 import { useGSAP } from "@gsap/react";
+import HorizontalSlider from "./HorizontalSlider";
 
 export default function Graph() {
   const detailRef = useRef(null);
@@ -74,6 +75,7 @@ export default function Graph() {
           <img src={"/graph.png"} className=""></img>
         </div>
       </div>
+      <HorizontalSlider></HorizontalSlider>
     </div>
   );
 }
