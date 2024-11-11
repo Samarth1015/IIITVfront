@@ -33,7 +33,7 @@ export default function Graph() {
     <div>
       <div className="w-full flex-col  md:flex md:flex-row justify-between md:px-20 px-10">
         <div ref={detailRef} className="detail w-full flex flex-col gap-4 ">
-          <div className="w-full">
+          <div className="w-full mt-5">
             <h1 className="text-3xl md:text-5xl text-black underline">
               2023-2024
             </h1>
