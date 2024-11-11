@@ -92,11 +92,14 @@ const DropDownCompo = ({ setMenu }) => {
             </p>
           </div>
           </Link>
+          <Link href={'/Calender'}  target='_blank'>
+
           <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
             <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
             </p>
           </div>
+          </Link>
         </div>
       </div>
       <div className={`w-full mt-10 md:mt-0 bg-cover md:bg-contain md:w-7/12 h-full transition-opacity duration-500`} style={{
