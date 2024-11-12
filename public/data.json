@@ -1,5 +1,5 @@
 {
-  "Dr. Jignesh S. Bhatt" :{
+  "jb" :{
   "name": "Dr. Jignesh S. Bhatt",
   "image": "/jb.jpg",
   "position": "Assistant Professor, Electronics & Communication Engineering",
@@ -89,7 +89,7 @@
     }
   ]
 },
-"Ashish Phophalia":{
+"ap":{
   "name": "Ashish Phophalia",
   "image": "/an.jpg",
   "position": "Assistant Professor, Indian Institute of Information Technology Vadodara",
@@ -148,6 +148,129 @@
       "course": "Operating Systems, Principles of Programming Languages"
     }
   ]
-}
+},
+
+  "nk": {
+    "name": "Naveen Kumar",
+    "position": "Assistant Professor, Computer Science & Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Computer Science",
+        "institution": "DA-IICT Gandhinagar"
+      },
+      {
+        "degree": "MTech",
+        "field": "Information Technology",
+        "institution": "GGSIPU Delhi"
+      }
+    ],
+    "contact": {
+      "email": "naveen_kumar@iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Information Security and Privacy",
+      "Access Control",
+      "Key Management",
+      "Cloud Security",
+      "Intelligent Transport Systems",
+      "Electric Vehicle"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "year": "Jul 2017 - Present"
+      },
+      {
+        "position": "Faculty Associate",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "year": "Jul 2015 - Jun 2017"
+      },
+      {
+        "position": "Teaching Assistant",
+        "institution": "DA-IICT Gandhinagar",
+        "year": "Mar 2013 - Jun 2015"
+      },
+      {
+        "position": "Research Associate",
+        "institution": "DA-IICT Gandhinagar",
+        "year": "Oct 2009 - Mar 2013"
+      },
+      {
+        "position": "Visiting Researcher",
+        "institution": "Matsuura Lab, Institute of Industrial Science, University of Tokyo, Japan",
+        "year": "Oct - Dec 2012"
+      },
+      {
+        "position": "Visiting Researcher",
+        "institution": "Matsuura Lab, Institute of Industrial Science, University of Tokyo, Japan",
+        "year": "Jan - Mar 2010"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Edge Computing and Blockchain-based Distributed Audit of Outsourced Dynamic Data",
+        "authors": ["Amit Kumar Dwivedi", "Naveen Kumar", "Manik Lal Das"],
+        "publication": "Wireless Personal Communications, Journal, Springer",
+        "year": "2024"
+      },
+      {
+        "title": "Artificial Intelligence in Forensic Science - An Emerging Technology in Criminal Investigation Systems",
+        "editors": ["Kavita Saini", "Swaroop S. Sonone", "Mahipal Singh Sankhla", "Naveen Kumar"],
+        "publication": "CRC Press, Book",
+        "year": "2024"
+      },
+      {
+        "title": "On Accountable and Distributed Audit of Outsourced Data",
+        "authors": ["Amit Kumar Dwivedi", "Naveen Kumar", "Manik Lal Das"],
+        "publication": "Sixth World Conference on Smart Trends for Systems Security and Sustainability, Springer",
+        "year": "2023"
+      },
+      {
+        "title": "Distributed Integrity Auditing of Cloud data using Edge Computing and Blockchain",
+        "authors": ["Amit Kumar Dwivedi", "Naveen Kumar", "Manik Lal Das"],
+        "publication": "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)",
+        "year": "2022"
+      },
+      {
+        "title": "Background Knowledge Attacks in Privacy-Preserving Data Publishing Models",
+        "authors": ["Nidhi Desai", "Manik Lal Das", "Payal Chaudhari", "Naveen Kumar"],
+        "publication": "Computers & Security, Elsevier",
+        "year": "2022"
+      },
+      {
+        "title": "Indigenous Design of a Traffic Light Control System Responsive to the Local Traffic Dynamics and Priority Vehicles",
+        "authors": ["Khilan Ravani", "Abhyudai Bisht", "Manish Chaturvedi", "Naveen Kumar"],
+        "publication": "Computers & Industrial Engineering, Elsevier",
+        "year": "2022"
+      },
+      {
+        "title": "Group Data Freshness Scheme for Outsourced Data in Distributed Systems",
+        "authors": ["Amit Kr. Dwivedi", "Naveen Kumar", "Maniklal Das"],
+        "publication": "Future Generation Computer Systems, Elsevier",
+        "year": "2022"
+      },
+      {
+        "title": "An Efficient Flexible Hierarchical Access Control Scheme Enabling Real-Life Exceptions",
+        "authors": ["Sumit Lal", "Naveen Kumar"],
+        "publication": "Sadhana, Springer",
+        "year": "2022"
+      },
+      {
+        "title": "On Pricing Models for Electric Vehicle Charging",
+        "authors": ["Pushkar Patel", "Harsh Kakani", "Manish Chaturvedi", "Naveen Kumar"],
+        "publication": "IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+        "year": "2022"
+      },
+      {
+        "title": "Consensus-Based Data Replication Protocol for Distributed Cloud",
+        "authors": ["Rashmi Maheshwari", "Naveen Kumar", "Monal Sadi"],
+        "publication": "Journal of Supercomputing",
+        "year": "2021"
+      }
+    ]
+  }
+
 
 }

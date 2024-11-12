@@ -38,6 +38,7 @@ const Page = () => {
         <div className=" w-full h-fit py-10 flex flex-col justify-start">
           <div className=" faculty-card   flex flex-col md:flex-row py-5 justify-evenly">
             <Faculty
+            jb={"jb"}
               imgurl={"/jb.jpg"}
               link="https://iiitvadodara.ac.in/jignesh_bhatt.php"
               name={"Dr. Jignesh S. Bhatt"}
@@ -49,6 +50,7 @@ const Page = () => {
               }
             />
             <Faculty
+            jb={"an"}
               imgurl={"/ps.jpg"}
               name={"Dr. Pratik Shah"}
               degree={`Ph.D. (Computer Vision)\nDA-IICT, Gandhinagar.`}

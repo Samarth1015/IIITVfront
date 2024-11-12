@@ -1,17 +1,17 @@
+// Faculty.jsx
 import React from "react";
 import { useRouter } from "next/navigation";
 
-const Faculty = ({ name, degree, li1, li2, li3, imgurl }) => {
+const Faculty = ({ name, degree, li1, li2, li3, imgurl , jb }) => {
   const router = useRouter();
 
   const handleSeeMoreClick = () => {
     if (name) {
+      // // Correct way to pass query parameters in App Router
+      // router.push(`/FacultyIIITV?data=${name}`); // Use a valid URL format with query params
 
-      router.push({
-        href: "/FacultyIIITV", // Valid path as string
-        query: { data: name }, // Ensure query is an object with appropriate key-value pair
-      });
-     
+
+      router.push(`/FacultyIIITV?data=${encodeURIComponent(jb)}`);
     } else {
       console.error("Name is not defined!");
     }
@@ -49,7 +49,7 @@ const Faculty = ({ name, degree, li1, li2, li3, imgurl }) => {
             {li3 && <li>{li3}</li>}
           </ul>
           <button
-            onClick={handleSeeMoreClick} // Call the function when the button is clicked
+            onClick={handleSeeMoreClick} // Trigger the router.push when the button is clicked
             className="px-4 rounded-lg text-sm bg-yellow-300 active:scale-95 hover:scale-105 transition-all duration-200 hover:bg-[#192537] hover:text-white font-medium py-2"
           >
             See More

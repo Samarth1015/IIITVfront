@@ -4,14 +4,16 @@ import Initialheader from "../../../Jenil/Components/Initialheader";
 import DropDownCompo from "../../../Jenil/Components/DropDownCompo";
 import FacultyProfile from "../../../Jenil/Components/FacultyIIITV/FacultyProfile";
 import FacultyProfile2 from "../../../Jenil/Components/FacultyIIITV/FacultyProfile2";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 function Page() {
   const [routerLoaded, setRouterLoaded] = useState(false);  // Track if router is ready
   const [facultyData, setFacultyData] = useState(null);
   const [menu, setMenu] = useState(false);
   const router = useRouter();
-
+  const [name , setName] = useState("")
+  const searchParams = useSearchParams();
   // Ensure the router is loaded before accessing query parameters
   useEffect(() => {
     if (router.isReady) {
@@ -19,21 +21,29 @@ function Page() {
     }
   }, [router.isReady]);
 
+ useEffect(()=>{
+  const name = searchParams.get("data");
+  if (name) {
+    console.log(name);
+    
+    setName(name);
+  }
+
+ })
   // Fetch faculty data only if router is loaded and the faculty name is available in the query
   useEffect(() => {
-    if (routerLoaded && router.query.data) {
+    
       fetch("/data.json")
         .then((response) => response.json())
         .then((data) => {
-          // Make sure the faculty name is found in the data
-          const facultyName = router.query.data;
-          if (data[facultyName]) {
-            setFacultyData(data[facultyName]); // Use the faculty data corresponding to the 'data' query
+          
+          if (data[name]) {
+            setFacultyData(data[name]); // Use the faculty data corresponding to the 'data' query
           }
         })
         .catch((error) => console.error('Error fetching faculty data:', error));
-    }
-  }, [routerLoaded, router.query.data]); // Make sure to use 'data' here
+   
+  }, [ name]); // Make sure to use 'data' here
 
   return (
     <>
