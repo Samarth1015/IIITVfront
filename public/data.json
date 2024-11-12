@@ -1,0 +1,90 @@
+{
+  "name": "Dr. Jignesh S. Bhatt",
+  "image": "/jb.jpg",
+  "position": "Assistant Professor, Electronics & Communication Engineering",
+  "academicQualifications": [
+    {
+      "degree": "PhD",
+      "field": "Information and Communication Technology",
+      "institution": "DA-IICT",
+      "year": "2010 - 2015"
+    },
+    {
+      "degree": "MTech",
+      "field": "Communication Systems",
+      "institution": "SVNIT, Surat",
+      "year": "2006 - 2008"
+    },
+    {
+      "degree": "BE",
+      "field": "Electronics & Communications",
+      "institution": "GEC, Modasa",
+      "year": "1997 - 2000"
+    }
+  ],
+  "contact": {
+    "email": "jignesh.bhatt@iiitvadodara.ac.in"
+  },
+  "researchInterest": [
+    "Deep learning for Medical imaging/ Remote sensing/ Defense",
+    "Interpretability of deep neural networks",
+    "Computer vision"
+  ],
+  "workExperience": [
+    {
+      "position": "Assistant Professor",
+      "institution": "IIIT Vadodara (Gandhinagar campus)",
+      "year": "Nov 2015 - Present"
+    },
+    {
+      "position": "Faculty Associate",
+      "institution": "IIIT Vadodara (Gandhinagar campus)",
+      "year": "June 2014 - Nov 2015"
+    },
+    {
+      "position": "Post-graduate Teaching Assistant",
+      "institution": "DAIICT, Gandhinagar",
+      "year": "Jan 2010 - May 2014"
+    },
+    {
+      "position": "Assistant Professor",
+      "institution": "Nirma University, Ahmedabad",
+      "year": "June - Dec 2009"
+    },
+    {
+      "position": "Assistant Professor",
+      "institution": "BIT, Vadodara",
+      "year": "June 2008 - 2009"
+    },
+    {
+      "position": "Sr. Lecturer & I/C Head (EC)",
+      "institution": "BIT, Vadodara",
+      "year": "June 2005 - 2006"
+    },
+    {
+      "position": "Lecturer",
+      "institution": "CCET, Wadhwan City",
+      "year": "July 2001 - May 2005"
+    },
+    {
+      "position": "Faculty",
+      "institution": "C-DAC Computers, Surendranagar",
+      "year": "Feb 2001 - June 2001"
+    },
+    {
+      "position": "Technical Support Engineer",
+      "institution": "Apex Automation, Ahmedabad",
+      "year": "Aug 2000 - Jan 2001"
+    }
+  ],
+  "coursesTeaching": [
+    {
+      "level": "UG/PG",
+      "course": "Topics in Deep Learning"
+    },
+    {
+      "level": "PG",
+      "course": "Probability, Statistics, and Random Processes"
+    }
+  ]
+}
