@@ -1,9 +1,7 @@
 // Faculty.jsx
 import React from "react";
-import { useRouter } from "next/navigation";
 
 const Faculty = ({ name, degree, li1, li2, li3, imgurl , jb }) => {
-  const router = useRouter();
 
   const handleSeeMoreClick = () => {
     if (name) {

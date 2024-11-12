@@ -3,11 +3,12 @@ import { useEffect, useState } from "react";
 import Initialheader from "../../../Jenil/Components/Initialheader";
 import DropDownCompo from "../../../Jenil/Components/DropDownCompo";
 import FacultyProfile from "../../../Jenil/Components/FacultyIIITV/FacultyProfile";
+import { Suspense } from "react";
+
 import FacultyProfile2 from "../../../Jenil/Components/FacultyIIITV/FacultyProfile2";
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
-
-function Page() {
+function FacultyPage(){
   const [routerLoaded, setRouterLoaded] = useState(false); // Track if router is ready
   const [facultyData, setFacultyData] = useState(null);
   const [menu, setMenu] = useState(false);
@@ -25,22 +26,21 @@ function Page() {
     const name = searchParams.get("data");
     if (name) {
       console.log(name);
-
       setName(name);
     }
-  });
-  // Fetch faculty data only if router is loaded and the faculty name is available in the query
+  }, [searchParams]); // Only run this when searchParams changes
+  
   useEffect(() => {
+    if (!name) return; // Only fetch data if a name exists
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
         if (data[name]) {
-          setFacultyData(data[name]); // Use the faculty data corresponding to the 'data' query
+          setFacultyData(data[name]);
         }
       })
       .catch((error) => console.error("Error fetching faculty data:", error));
-  }, [name]); // Make sure to use 'data' here
-
+  }, [name]);
   return (
     <>
       <div
@@ -83,5 +83,10 @@ function Page() {
     </>
   );
 }
-
-export default Page;
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <FacultyPage />
+    </Suspense>
+  );
+}
