@@ -48,13 +48,13 @@ const FacultyProfile2 = ({
 
   return (
     <div className="w-full h-fit  flex flex-col">
-      <div className="w-6/12 h-fit py-2 bg-[#2d4b76] text-white rounded-xl self-center mt-2 flex flex-row justify-evenly">
+      <div className=" w-10/12 md:w-6/12 h-fit py-2 bg-[#2d4b76] text-white rounded-xl self-center px-2 mt-2 flex flex-row justify-evenly">
         {["Research Interest", "Work Experience", "Additional Information"].map(
           (section) => (
             <p
               key={section}
               onClick={() => setActiveSection(section)}
-              className={`hover:text-[#2d4b76] text-center text-sm  hover:bg-white px-2 py-1 cursor-pointer rounded-xl hover:scale-105 self-center transition-all duration-150 ${
+              className={`hover:text-[#2d4b76] text-center text-[13px] md:text-sm  hover:bg-white px-2 py-1 cursor-pointer rounded-xl hover:scale-105 self-center transition-all duration-150 ${
                 activeSection === section ? "bg-white text-[#2d4b76]" : ""
               }`}>
               {section}

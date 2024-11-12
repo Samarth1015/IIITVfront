@@ -11,29 +11,29 @@ const FacultyProfile = ({
   contact,
 }) => {
   return (
-    <div className="w-full h-72 bg-[#2d4b76] justify-between px-10 flex flex-row py-5">
-      <div className="flex flex-row">
+    <div className="w-full h-fit  bg-[#2d4b76] justify-between px-10 flex flex-row py-5">
+      <div className="flex md:flex-row flex-col self-center justify-center ">
         <Image
           src={imgUrl}
-          className="pl-10 rounded-lg"
+          className="md:pl-10 rounded-lg self-center"
           width={350}
           height={200}
           alt="Faculty"
         />
-        <div className="flex flex-col justify-start gap-2">
-          <p className="text-5xl text-white  font-medium  ml-4">{name}</p>
-          <p className="text-xl ml-4 text-gray-400">{position}</p>
-          <p className="text-xl ml-4  text-gray-400">
+        <div className="flex flex-col self-center  md:ml-0 justify-start gap-1 md:gap-2">
+          <p className="text-xl md:text-5xl text-center md:text-left text-white  font-medium  ml-4">{name}</p>
+          <p className=" text-[10px] md:text-xl ml-4 text-gray-400">{position}</p>
+          <p className=" text-[10px] md:text-xl ml-4  text-gray-400">
             Academic Qualifications:
           </p>
-          <ul className="list-disc ml-16 text-sm text-gray-400">
+          <ul className="list-disc ml-9 md:ml-16 text-[10px] md:text-sm text-gray-400">
             {academicQualifications.map((qual, index) => (
               <li key={index}>
                 {qual.degree} in {qual.field}, {qual.institution} ({qual.year})
               </li>
             ))}
           </ul>
-          <p className=" text-gray-400 ml-4 flex flow-row">
+          <p className="text-[10px] md:text-xl text-gray-400 ml-4 flex flow-row">
             {" "}
             E-mail: {contact.email}
           </p>
@@ -41,12 +41,12 @@ const FacultyProfile = ({
       </div>
       <div className="flex flex-col  justify-center text-xl gap-10">
         <Link href={"#"}>
-          <p className="flex flex-row justify-start hover:scale-110 font-medium transition-all duration-200">
+          <p className="md:flex flex-row hidden  justify-start hover:scale-110 font-medium transition-all duration-200">
             <FaLinkedin className="self-center  text-white   hover:text-blue-700  text-4xl" />
           </p>
         </Link>
         <Link href={"#"}>
-          <p className="flex flex-row justify-start text-left hover:scale-110 font-medium transition-all duration-200">
+          <p className="md:flex hidden flex-row justify-start text-left hover:scale-110 font-medium transition-all duration-200">
             <FaUserGraduate className="self-center  text-white hover:text-yellow-700   text-4xl" />
           </p>
         </Link>
