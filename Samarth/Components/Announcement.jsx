@@ -55,6 +55,7 @@ export default function Announcement() {
           <Link
             href={"/announcement"}
             className="mx-auto text-yellow-500 hover:text-lg duration-200"
+            target="_blank"
           >
             {" "}
             View all Announcement
