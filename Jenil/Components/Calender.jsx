@@ -32,9 +32,9 @@ const Calender = () => {
           }>
           <div
             ref={(el) => (cardRefs.current[0] = el)}
-            className=" md:w-80 md:h-60 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
-            <FaClipboardList className="md:text-5xl text-xl self-center" />
-            <p className="self-center text-center text-[12px] md:text-2xl font-medium">
+            className=" md:w-68 md:h-44 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
+            <FaClipboardList className="md:text-4xl text-xl self-center" />
+            <p className="self-center text-center text-[12px] md:text-xl font-medium">
               List Of Holidays <br /> 2024
             </p>
           </div>
@@ -46,9 +46,9 @@ const Calender = () => {
           }>
           <div
             ref={(el) => (cardRefs.current[1] = el)}
-            className=" md:w-80 md:h-60 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
-            <FaCloudSun className="md:text-5xl text-xl self-center" />
-            <p className="self-center text-center text-[12px] md:text-2xl font-medium">
+            className=" md:w-68 md:h-44 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
+            <FaCloudSun className="md:text-4xl text-xl self-center" />
+            <p className="self-center text-center text-[12px] md:text-xl font-medium">
               Autumn Semester <br />
               2024-25
             </p>
@@ -63,9 +63,9 @@ const Calender = () => {
           }>
           <div
             ref={(el) => (cardRefs.current[2] = el)}
-            className=" md:w-80 md:h-60 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
-            <GiThermometerCold className="md:text-5xl text-xl self-center" />
-            <p className="self-center text-center text-[12px] md:text-2xl font-medium">
+            className=" md:w-68 md:h-44 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
+            <GiThermometerCold className="md:text-4xl text-xl self-center" />
+            <p className="self-center text-center text-[12px] md:text-xl font-medium">
               Winter Semester <br /> 2024-25
             </p>
           </div>
@@ -77,9 +77,9 @@ const Calender = () => {
           }>
           <div
             ref={(el) => (cardRefs.current[3] = el)}
-            className=" md:w-80 md:h-60 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
-            <FaCloudSun className="md:text-5xl text-xl self-center" />
-            <p className="self-center text-center text-[12px] md:text-2xl font-medium">
+            className=" md:w-68 md:h-44 w-64 h-32 border-2 cursor-pointer border-[#20385a] rounded-md flex flex-col justify-center gap-3 text-[#20385a] hover:text-white hover:bg-[#20385a] transition-all duration-200 ease-out">
+            <FaCloudSun className="md:text-4xl text-xl self-center" />
+            <p className="self-center text-center text-[12px] md:text-xl font-medium">
               Autumn Semester <br /> 2024-25
             </p>
           </div>

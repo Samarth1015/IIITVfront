@@ -8,7 +8,7 @@ const DropDownCompo = ({ setMenu }) => {
   let bgIMages = {
     1: { 
       image: "/faculty.jpeg",
-      gradient: 'from-[#001a3f] to-[#5a39d2]' 
+      gradient: ' from-[#000] to-[#777777] ' 
     },
     2: { 
       image: "/placement.webp", 
@@ -52,26 +52,26 @@ const DropDownCompo = ({ setMenu }) => {
               <Image
                 src="/asset 42.png"
                 alt="IIIT Vadodara Logo"
-                width={90}
-                height={90}
-                className="h-8 w-8 md:h-20 md:w-20 lg:h-24 lg:w-24 object-contain"
+                width={70}
+                height={70}
+                className="h-8 w-8 md:h-20 md:w-20 p-1 lg:h-24 lg:w-24 object-contain"
               />
             </div>
 
             <div className="ml-2 md:ml-4 max-w-[230px] sm:max-w-xs md:max-w-md lg:max-w-full whitespace-normal">
-              <p className="text-[8px] text-white md:text-lg lg:text-2xl  font-medium">
-                Indian Institute of Information Technology Vadodara
+              <p className="text-[8px] text-white md:text-[16px] font-medium">
+                Indian Institute of Information Technology  Vadodara
               </p>
-              <p className="text-[8px] text-white md:text-base lg:text-lg font-medium">
+              <p className="text-[8px] text-white md:text-[15px] font-medium">
                 भारतीय सूचना प्रौद्योगिकी संस्थान वडोदरा
               </p>
             </div>
           </div>
         </Link>
         <div className='self-center flex flex-col justify-center'>
-          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+          <div className="w-full  flex flex-row justify-center md:justify-end cursor-pointer my-5">
            <Link href={'/Faculty'}  target='_blank'>
-            <p onMouseEnter={() => handleImageChange(bgIMages[1])} className=' text-2xl  md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
+            <p onMouseEnter={() => handleImageChange(bgIMages[1])} className=' text-2xl  md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Faculty
             </p>
             </Link>
@@ -79,7 +79,7 @@ const DropDownCompo = ({ setMenu }) => {
           <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
           <Link href={'/stats'} target='_blank'>
           
-            <p onMouseEnter={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
+            <p onMouseEnter={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Placements
             </p>
             </Link>
@@ -87,7 +87,7 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
           <Link href={'/Hostel'}>
           <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
-            <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
+            <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Hostels
             </p>
           </div>
@@ -95,7 +95,7 @@ const DropDownCompo = ({ setMenu }) => {
           <Link href={'/Calender'}  target='_blank'>
 
           <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
-            <p className=' text-2xl md:text-6xl font-bold text-end text-cyan-300 hover:text-yellow-300 hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
+            <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
             </p>
           </div>

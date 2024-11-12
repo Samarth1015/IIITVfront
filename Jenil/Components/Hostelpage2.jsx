@@ -31,18 +31,18 @@ const Hostelpage2 = () => {
   }, []);
 
   const amenities = [
-    { icon: <FaHandHoldingWater className="text-2xl md:text-7xl" />, label: "RO Water" },
-    { icon: <MdFastfood className="text-2xl md:text-7xl" />, label: "Dining Hall" },
-    { icon: <CgGym className="text-2xl md:text-7xl" />, label: "Gymnasium" },
-    { icon: <GiMusicalScore className="text-2xl md:text-7xl" />, label: "Musical instruments" },
-    { icon: <PiSecurityCamera className="text-2xl md:text-7xl" />, label: "Round the Clock Security" },
-    { icon: <MdDryCleaning className="text-2xl md:text-7xl" />, label: "House Keeping" },
-    { icon: <FaAmbulance className="text-2xl md:text-7xl" />, label: "Emergency Vehicle" },
-    { icon: <FaFemale className="text-2xl md:text-7xl" />, label: "Female Caretaker" },
+    { icon: <FaHandHoldingWater className="text-2xl md:text-4xl" />, label: "RO Water" },
+    { icon: <MdFastfood className="text-2xl md:text-4xl" />, label: "Dining Hall" },
+    { icon: <CgGym className="text-2xl md:text-4xl" />, label: "Gymnasium" },
+    { icon: <GiMusicalScore className="text-2xl md:text-4xl" />, label: "Musical instruments" },
+    { icon: <PiSecurityCamera className="text-2xl md:text-4xl" />, label: "Round the Clock Security" },
+    { icon: <MdDryCleaning className="text-2xl md:text-4xl" />, label: "House Keeping" },
+    { icon: <FaAmbulance className="text-2xl md:text-4xl" />, label: "Emergency Vehicle" },
+    { icon: <FaFemale className="text-2xl md:text-4xl" />, label: "Female Caretaker" },
   ];
 
   return (
-    <div className="w-full py-20 h-fit bg-white flex flex-col justify-start">
+    <div className="w-full py-20 h-fit bg-white flex flex-col justify-center gap-4">
       <h1 className="mt-10 text-4xl self-center text-[#20385a] font-bold">
         Hostel Amenities
       </h1>
@@ -50,11 +50,11 @@ const Hostelpage2 = () => {
         {amenities.map((item, index) => (
           <div
             key={index}
-            className="h-20 ml-7 md:ml-0 md:h-60 w-20 md:w-60  flex flex-col items-center justify-center md:gap-2 hover:border-2 text-[#20385a] transition-all  duration-150 hover:bg-[#20385a] hover:text-white border-[#20385a] text-center"
+            className="h-20 ml-7 border-2 border-[#20385a] md:ml-0 md:h-44 w-20 md:w-64  flex flex-col items-center justify-center md:gap-2 hover:border-2 text-[#20385a] transition-all  duration-150 hover:bg-[#20385a] hover:text-white text-center"
             ref={(el) => (amenitiesRef.current[index] = el)}
           >
             {item.icon}
-            <p className="text-[10px] md:text-2xl py-2">{item.label}</p>
+            <p className="text-[10px] md:text-xl py-2">{item.label}</p>
           </div>
         ))}
       </div>
