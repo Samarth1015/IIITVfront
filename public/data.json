@@ -1,4 +1,5 @@
 {
+  "Dr. Jignesh S. Bhatt" :{
   "name": "Dr. Jignesh S. Bhatt",
   "image": "/jb.jpg",
   "position": "Assistant Professor, Electronics & Communication Engineering",
@@ -87,4 +88,66 @@
       "course": "Probability, Statistics, and Random Processes"
     }
   ]
+},
+"Ashish Phophalia":{
+  "name": "Ashish Phophalia",
+  "image": "/an.jpg",
+  "position": "Assistant Professor, Indian Institute of Information Technology Vadodara",
+  "academicQualifications": [
+    {
+      "degree": "PhD",
+      "field": "N/A",
+      "institution": "DAIICT",
+      "year": "2016"
+    },
+    {
+      "degree": "MTech",
+      "field": "N/A",
+      "institution": "DAIICT",
+      "year": "2010"
+    },
+    {
+      "degree": "BE",
+      "field": "N/A",
+      "institution": "Rajasthan University",
+      "year": "2008"
+    }
+  ],
+  "contact": {
+    "email": "ashish_p@iiitvadodara.ac.in"
+  },
+  "researchInterest": [
+    "Image Processing",
+    "Pattern Recognition",
+    "Soft Computing",
+    "Medical Image Analysis"
+  ],
+  "workExperience": [
+    {
+      "position": "Assistant Professor",
+      "institution": "Indian Institute of Information Technology Vadodara",
+      "year": "Present"
+    },
+    {
+      "position": "Research Assistant",
+      "institution": "BRNS sponsored project on Techniques for Robust Face Recognition with Pose Variation",
+      "year": "Jan'2013 - July'15"
+    }
+  ],
+  "coursesTeaching": [
+    {
+      "level": "UG/PG",
+      "course": "Compiler Design, Models of Computation (Elective)"
+    },
+    {
+      "level": "UG/PG",
+      "course": "Formal Languages and Automata Theory, Pattern Recognition"
+    },
+    {
+      "level": "UG/PG",
+      "course": "Operating Systems, Principles of Programming Languages"
+    }
+  ]
+}
+
 }
