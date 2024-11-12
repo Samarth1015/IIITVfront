@@ -7,11 +7,8 @@ const Faculty = ({ name, degree, li1, li2, li3, imgurl , jb }) => {
 
   const handleSeeMoreClick = () => {
     if (name) {
-      // // Correct way to pass query parameters in App Router
-      // router.push(`/FacultyIIITV?data=${name}`); // Use a valid URL format with query params
-
-
-      router.push(`/FacultyIIITV?data=${encodeURIComponent(jb)}`);
+      const url = `/FacultyIIITV?data=${encodeURIComponent(jb)}`;
+      window.open(url, '_blank'); // '_blank' opens the URL in a new tab
     } else {
       console.error("Name is not defined!");
     }

@@ -38,7 +38,7 @@ const Page = () => {
         <div className=" w-full h-fit py-10 flex flex-col justify-start">
           <div className=" faculty-card   flex flex-col md:flex-row py-5 justify-evenly">
             <Faculty
-            jb={"jb"}
+              jb={"jb"}
               imgurl={"/jb.jpg"}
               link="https://iiitvadodara.ac.in/jignesh_bhatt.php"
               name={"Dr. Jignesh S. Bhatt"}
@@ -50,7 +50,7 @@ const Page = () => {
               }
             />
             <Faculty
-            jb={"an"}
+              jb={"ps"}
               imgurl={"/ps.jpg"}
               name={"Dr. Pratik Shah"}
               degree={`Ph.D. (Computer Vision)\nDA-IICT, Gandhinagar.`}
@@ -59,6 +59,7 @@ const Page = () => {
               li3={"Natural Language Processing"}
             />
             <Faculty
+              jb={"nk"}
               imgurl={"/nk.png"}
               link="https://iiitvadodara.ac.in/naveen_kumar.php"
               name={"Dr. Naveen Kumar"}
@@ -70,6 +71,7 @@ MTech (IT): GGSIPU Delhi
           </div>
           <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
             <Faculty
+              jb={"bk"}
               link="https://iiitvadodara.ac.in/bhupendra_kumar.php"
               imgurl={"/bk.jpg"}
               name={"Dr. Bhupendra Kumar"}
@@ -79,6 +81,7 @@ MTech (IT): GGSIPU Delhi
               li3={"Queuing theory, Optimization"}
             />
             <Faculty
+              jb={"kkj"}
               imgurl={"/kkj.jpg"}
               link="https://iiitvadodara.ac.in/kamal_kishor_jha.php"
               name={"Dr. Kamal Kishor Jha"}
@@ -88,6 +91,7 @@ MTech (IT): GGSIPU Delhi
               li3={"Embedded Systems for IoT"}
             />
             <Faculty
+              jb={"sd"}
               imgurl={"/sd.jpg"}
               link="https://iiitvadodara.ac.in/sunandita_debnath.php"
               name={"Dr. Sunandita Debnath"}
@@ -101,6 +105,7 @@ MTech (IT): GGSIPU Delhi
           </div>
           <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
             <Faculty
+              jb={"an"}
               link="https://iiitvadodara.ac.in/ajay_nath.php"
               imgurl={"/an.jpg"}
               name={"Dr. Ajay Nath"}
@@ -110,6 +115,7 @@ MTech (IT): GGSIPU Delhi
               li3={"Solitons"}
             />
             <Faculty
+              jb={"ac"}
               imgurl={"/ac.jpg"}
               name={"Dr. Barnali Chetia"}
               link="https://iiitvadodara.ac.in/barnali_chetia.php"
@@ -121,6 +127,7 @@ MTech (IT): GGSIPU Delhi
               }
             />
             <Faculty
+              jb={"ds"}
               link="https://iiitvadodara.ac.in/dhirendra.php"
               imgurl={"/ds.jpg"}
               name={"Dr. Dhirendra Sinha"}
@@ -132,6 +139,7 @@ MTech (IT): GGSIPU Delhi
           </div>
           <div className="faculty-card flex flex-col md:flex-row py-5 justify-evenly">
             <Faculty
+              jb={"dr"}
               imgurl={"/dr.jpg"}
               link="https://iiitvadodara.ac.in/dibyendu_roy.php"
               name={"Dr. Dibyendu Roy"}
@@ -140,6 +148,7 @@ MTech (IT): GGSIPU Delhi
               li2={"Design Analysis of Boolean Function"}
             />
             <Faculty
+              jb={"sl"}
               link="https://iiitvadodara.ac.in/swapnil_lokhande.php"
               imgurl={"/sl.jpg"}
               name={"Dr. Swapnil A. Lokhande"}
@@ -147,6 +156,7 @@ MTech (IT): GGSIPU Delhi
               li1={"Commutative Algebra"}
             />
             <Faculty
+              jb={"pm"}
               imgurl={"/pm.jpg"}
               name={"Dr. Pramit Mazumdar"}
               link="https://iiitvadodara.ac.in/pramit_mazumdar.php"

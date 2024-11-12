@@ -1,157 +1,159 @@
 {
-  "jb" :{
-  "name": "Dr. Jignesh S. Bhatt",
-  "image": "/jb.jpg",
-  "position": "Assistant Professor, Electronics & Communication Engineering",
-  "academicQualifications": [
-    {
-      "degree": "PhD",
-      "field": "Information and Communication Technology",
-      "institution": "DA-IICT",
-      "year": "2010 - 2015"
+  "jb": {
+    "name": "Dr. Jignesh S. Bhatt",
+    "image": "/jb.jpg",
+    "position": "Assistant Professor, Electronics & Communication Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Information and Communication Technology",
+        "institution": "DA-IICT",
+        "year": "2010 - 2015"
+      },
+      {
+        "degree": "MTech",
+        "field": "Communication Systems",
+        "institution": "SVNIT, Surat",
+        "year": "2006 - 2008"
+      },
+      {
+        "degree": "BE",
+        "field": "Electronics & Communications",
+        "institution": "GEC, Modasa",
+        "year": "1997 - 2000"
+      }
+    ],
+    "contact": {
+      "email": "jignesh.bhatt@iiitvadodara.ac.in"
     },
-    {
-      "degree": "MTech",
-      "field": "Communication Systems",
-      "institution": "SVNIT, Surat",
-      "year": "2006 - 2008"
-    },
-    {
-      "degree": "BE",
-      "field": "Electronics & Communications",
-      "institution": "GEC, Modasa",
-      "year": "1997 - 2000"
-    }
-  ],
-  "contact": {
-    "email": "jignesh.bhatt@iiitvadodara.ac.in"
+    "researchInterest": [
+      "Deep learning for Medical imaging/ Remote sensing/ Defense",
+      "Interpretability of deep neural networks",
+      "Computer vision"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "IIIT Vadodara (Gandhinagar campus)",
+        "year": "Nov 2015 - Present"
+      },
+      {
+        "position": "Faculty Associate",
+        "institution": "IIIT Vadodara (Gandhinagar campus)",
+        "year": "June 2014 - Nov 2015"
+      },
+      {
+        "position": "Post-graduate Teaching Assistant",
+        "institution": "DAIICT, Gandhinagar",
+        "year": "Jan 2010 - May 2014"
+      },
+      {
+        "position": "Assistant Professor",
+        "institution": "Nirma University, Ahmedabad",
+        "year": "June - Dec 2009"
+      },
+      {
+        "position": "Assistant Professor",
+        "institution": "BIT, Vadodara",
+        "year": "June 2008 - 2009"
+      },
+      {
+        "position": "Sr. Lecturer & I/C Head (EC)",
+        "institution": "BIT, Vadodara",
+        "year": "June 2005 - 2006"
+      },
+      {
+        "position": "Lecturer",
+        "institution": "CCET, Wadhwan City",
+        "year": "July 2001 - May 2005"
+      },
+      {
+        "position": "Faculty",
+        "institution": "C-DAC Computers, Surendranagar",
+        "year": "Feb 2001 - June 2001"
+      },
+      {
+        "position": "Technical Support Engineer",
+        "institution": "Apex Automation, Ahmedabad",
+        "year": "Aug 2000 - Jan 2001"
+      }
+    ],
+    "coursesTeaching": [
+      {
+        "level": "UG/PG",
+        "course": "Topics in Deep Learning"
+      },
+      {
+        "level": "PG",
+        "course": "Probability, Statistics, and Random Processes"
+      }
+    ]
   },
-  "researchInterest": [
-    "Deep learning for Medical imaging/ Remote sensing/ Defense",
-    "Interpretability of deep neural networks",
-    "Computer vision"
-  ],
-  "workExperience": [
-    {
-      "position": "Assistant Professor",
-      "institution": "IIIT Vadodara (Gandhinagar campus)",
-      "year": "Nov 2015 - Present"
+  "ap": {
+    "name": "Ashish Phophalia",
+    "image": "/an.jpg",
+    "position": "Assistant Professor, Indian Institute of Information Technology Vadodara",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "N/A",
+        "institution": "DAIICT",
+        "year": "2016"
+      },
+      {
+        "degree": "MTech",
+        "field": "N/A",
+        "institution": "DAIICT",
+        "year": "2010"
+      },
+      {
+        "degree": "BE",
+        "field": "N/A",
+        "institution": "Rajasthan University",
+        "year": "2008"
+      }
+    ],
+    "contact": {
+      "email": "ashish_p@iiitvadodara.ac.in"
     },
-    {
-      "position": "Faculty Associate",
-      "institution": "IIIT Vadodara (Gandhinagar campus)",
-      "year": "June 2014 - Nov 2015"
-    },
-    {
-      "position": "Post-graduate Teaching Assistant",
-      "institution": "DAIICT, Gandhinagar",
-      "year": "Jan 2010 - May 2014"
-    },
-    {
-      "position": "Assistant Professor",
-      "institution": "Nirma University, Ahmedabad",
-      "year": "June - Dec 2009"
-    },
-    {
-      "position": "Assistant Professor",
-      "institution": "BIT, Vadodara",
-      "year": "June 2008 - 2009"
-    },
-    {
-      "position": "Sr. Lecturer & I/C Head (EC)",
-      "institution": "BIT, Vadodara",
-      "year": "June 2005 - 2006"
-    },
-    {
-      "position": "Lecturer",
-      "institution": "CCET, Wadhwan City",
-      "year": "July 2001 - May 2005"
-    },
-    {
-      "position": "Faculty",
-      "institution": "C-DAC Computers, Surendranagar",
-      "year": "Feb 2001 - June 2001"
-    },
-    {
-      "position": "Technical Support Engineer",
-      "institution": "Apex Automation, Ahmedabad",
-      "year": "Aug 2000 - Jan 2001"
-    }
-  ],
-  "coursesTeaching": [
-    {
-      "level": "UG/PG",
-      "course": "Topics in Deep Learning"
-    },
-    {
-      "level": "PG",
-      "course": "Probability, Statistics, and Random Processes"
-    }
-  ]
-},
-"ap":{
-  "name": "Ashish Phophalia",
-  "image": "/an.jpg",
-  "position": "Assistant Professor, Indian Institute of Information Technology Vadodara",
-  "academicQualifications": [
-    {
-      "degree": "PhD",
-      "field": "N/A",
-      "institution": "DAIICT",
-      "year": "2016"
-    },
-    {
-      "degree": "MTech",
-      "field": "N/A",
-      "institution": "DAIICT",
-      "year": "2010"
-    },
-    {
-      "degree": "BE",
-      "field": "N/A",
-      "institution": "Rajasthan University",
-      "year": "2008"
-    }
-  ],
-  "contact": {
-    "email": "ashish_p@iiitvadodara.ac.in"
+    "researchInterest": [
+      "Image Processing",
+      "Pattern Recognition",
+      "Soft Computing",
+      "Medical Image Analysis"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "year": "Present"
+      },
+      {
+        "position": "Research Assistant",
+        "institution": "BRNS sponsored project on Techniques for Robust Face Recognition with Pose Variation",
+        "year": "Jan'2013 - July'15"
+      }
+    ],
+    "coursesTeaching": [
+      {
+        "level": "UG/PG",
+        "course": "Compiler Design, Models of Computation (Elective)"
+      },
+      {
+        "level": "UG/PG",
+        "course": "Formal Languages and Automata Theory, Pattern Recognition"
+      },
+      {
+        "level": "UG/PG",
+        "course": "Operating Systems, Principles of Programming Languages"
+      }
+    ]
   },
-  "researchInterest": [
-    "Image Processing",
-    "Pattern Recognition",
-    "Soft Computing",
-    "Medical Image Analysis"
-  ],
-  "workExperience": [
-    {
-      "position": "Assistant Professor",
-      "institution": "Indian Institute of Information Technology Vadodara",
-      "year": "Present"
-    },
-    {
-      "position": "Research Assistant",
-      "institution": "BRNS sponsored project on Techniques for Robust Face Recognition with Pose Variation",
-      "year": "Jan'2013 - July'15"
-    }
-  ],
-  "coursesTeaching": [
-    {
-      "level": "UG/PG",
-      "course": "Compiler Design, Models of Computation (Elective)"
-    },
-    {
-      "level": "UG/PG",
-      "course": "Formal Languages and Automata Theory, Pattern Recognition"
-    },
-    {
-      "level": "UG/PG",
-      "course": "Operating Systems, Principles of Programming Languages"
-    }
-  ]
-},
 
   "nk": {
     "name": "Naveen Kumar",
+    "image": "/nk.png",
+
     "position": "Assistant Professor, Computer Science & Engineering",
     "academicQualifications": [
       {
@@ -217,7 +219,12 @@
       },
       {
         "title": "Artificial Intelligence in Forensic Science - An Emerging Technology in Criminal Investigation Systems",
-        "editors": ["Kavita Saini", "Swaroop S. Sonone", "Mahipal Singh Sankhla", "Naveen Kumar"],
+        "editors": [
+          "Kavita Saini",
+          "Swaroop S. Sonone",
+          "Mahipal Singh Sankhla",
+          "Naveen Kumar"
+        ],
         "publication": "CRC Press, Book",
         "year": "2024"
       },
@@ -235,13 +242,23 @@
       },
       {
         "title": "Background Knowledge Attacks in Privacy-Preserving Data Publishing Models",
-        "authors": ["Nidhi Desai", "Manik Lal Das", "Payal Chaudhari", "Naveen Kumar"],
+        "authors": [
+          "Nidhi Desai",
+          "Manik Lal Das",
+          "Payal Chaudhari",
+          "Naveen Kumar"
+        ],
         "publication": "Computers & Security, Elsevier",
         "year": "2022"
       },
       {
         "title": "Indigenous Design of a Traffic Light Control System Responsive to the Local Traffic Dynamics and Priority Vehicles",
-        "authors": ["Khilan Ravani", "Abhyudai Bisht", "Manish Chaturvedi", "Naveen Kumar"],
+        "authors": [
+          "Khilan Ravani",
+          "Abhyudai Bisht",
+          "Manish Chaturvedi",
+          "Naveen Kumar"
+        ],
         "publication": "Computers & Industrial Engineering, Elsevier",
         "year": "2022"
       },
@@ -259,7 +276,12 @@
       },
       {
         "title": "On Pricing Models for Electric Vehicle Charging",
-        "authors": ["Pushkar Patel", "Harsh Kakani", "Manish Chaturvedi", "Naveen Kumar"],
+        "authors": [
+          "Pushkar Patel",
+          "Harsh Kakani",
+          "Manish Chaturvedi",
+          "Naveen Kumar"
+        ],
         "publication": "IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
         "year": "2022"
       },
@@ -270,7 +292,170 @@
         "year": "2021"
       }
     ]
+  },
+
+  "pm": {
+    "name": "Pramit Mazumdar",
+    "image": "/pm.jpg",
+
+    "position": "Assistant Professor, Computer Science & Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Computer Science & Engineering",
+        "institution": "NIT Rourkela"
+      },
+      {
+        "degree": "MTech",
+        "field": "Information Technology",
+        "institution": "Jadavpur University"
+      },
+      {
+        "degree": "BTech",
+        "field": "Information Technology",
+        "institution": "West Bengal University of Technology"
+      }
+    ],
+    "contact": {
+      "email": "pramit.mazumdar@iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Multimedia Signal Processing (360-degree, Point Cloud)",
+      "Extended Reality (VR, AR, MR)",
+      "Visual Quality Assessment",
+      "Conversational Recommender Systems",
+      "Autism Spectrum Disorder"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "year": "January 2021 - Present"
+      },
+      {
+        "position": "Researcher",
+        "institution": "Università degli Studi Roma TRE, Rome, Italy",
+        "year": "May 2018 – Dec 2020"
+      }
+    ]
+  },
+
+  "ps": {
+    "name": "Pratik Shah",
+    "image": "/ps.jpg",
+
+    "position": "Assistant Professor, Department of Computer Science and Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Information and Communication Technology",
+        "year": 2012,
+        "thesis": "On the Curve Reconstruction on Riemannian Manifolds, Ordering Motion Frames",
+        "supervisor": "Prof. Samaresh Chatterji",
+        "institution": "DA-IICT, Gandhinagar"
+      },
+      {
+        "degree": "M.Tech.",
+        "field": "Information and Communication Technology",
+        "year": 2005,
+        "thesis": "Active Contours in Action",
+        "institution": "DA-IICT, Gandhinagar"
+      },
+      {
+        "degree": "B.E.",
+        "field": "Electronics and Communication Engineering",
+        "year": 2003,
+        "specialization": "Digital Signal Processing",
+        "institution": "SVIT, Vasad, Gujarat University"
+      }
+    ],
+    "contact": {
+      "email": "pratik@iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Artificial Intelligence",
+      "Geometry Processing",
+      "Natural Language Processing",
+      "Computational Music",
+      "Cognitive Aspects of Indian Classical Music"
+    ],
+    "projectsAndConsultancy": [
+      {
+        "title": "Development of Weather Aware Safe Ship Navigation Software",
+        "agency": "ISRO",
+        "code": "YS/PD-IP/2021/342",
+        "duration": "July 2022 - July 2024",
+        "role": "Principal Investigator",
+        "amount": "INR 11,42,920"
+      },
+      {
+        "title": "Data-Driven Weather Forecast using AI/DL",
+        "agency": "Indian Meteorological Department, Ministry of Earth Sciences, India",
+        "role": "Principal Investigator",
+        "duration": "October 2020 - October 2021"
+      },
+      {
+        "title": "Data Analytics for Predictive Maintenance",
+        "description": "Training programs for engineers on Predictive Maintenance at Tata Power, Mumbai, and Jamshedpur",
+        "duration": "October - November 2019"
+      }
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "department": "Computer Science and Engineering",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "duration": "July 2013 - Present"
+      },
+      {
+        "position": "Faculty Member",
+        "department": "Electronics and Communication Engineering",
+        "institution": "LNMIIT, Jaipur",
+        "duration": "June 2011 - June 2013"
+      },
+      {
+        "position": "JRF and SRF",
+        "project": "Development of Software Suite for Estimation Filters for Direction of Arrival Passive Target Tracking",
+        "institution": "DA-IICT",
+        "sponsor": "NSTL, Vizag",
+        "duration": "July 2005 - June 2007"
+      }
+    ],
+    "additionalInformation": {
+      "teaching": [
+        "Courses: Artificial Intelligence, Natural Language Processing, Information Retrieval, Topological Data Analysis",
+        "Developed and conducted course: Music, Mathematics and Machines, Summer 2022, 2023"
+      ],
+      "outreach": [
+        "AICTE sponsored QIP PG Certification Program on Artificial Intelligence",
+        "DLI Certified Instructor, NVIDIA University Ambassador",
+        "Conducted workshops on Deep Learning at various institutions",
+        "Conducted AICTE-sponsored faculty development programs (2019 - 2021)",
+        "Project coordinator for GUJCOST-sponsored High-Performance Computing laboratory at IIIT Vadodara",
+        "Vice Chair of IEEE Computational Intelligence Society, Gujarat Chapter"
+      ],
+      "students": {
+        "doctoral": [
+          {
+            "name": "Prashant Domadia",
+            "research": "Vector Graph Representation for 3D Meshes",
+            "degree": "PhD (DA-IICT, 2021)",
+            "employment": "@ApparelGenius"
+          }
+        ],
+        "masters": [
+          {
+            "name": "Pruthweesha S A",
+            "research": "Multiclass Classification of Complaints Data and Confidence Score Attestation",
+            "duration": "2023-24"
+          },
+          {
+            "name": "Prashant Dhameja",
+            "research": "Information Lattice Learning",
+            "duration": "2021-22"
+          }
+        ]
+      }
+    }
   }
-
-
 }
