@@ -1,4 +1,148 @@
 {
+    "ds": {
+      "name": "Dr. Dhirendra K. Sinha",
+      "image": "/ds.jpg",
+      "position": "Assistant Professor (Physics)",
+      "academicQualifications": [
+        {
+          "degree": "PhD",
+          "field": "Physics",
+          "institution": "IIT Kanpur"
+        },
+        {
+          "degree": "MSc",
+          "field": "Physics",
+          "institution": "IIT Delhi"
+        },
+        {
+          "degree": "B.Sc.",
+          "field": "Physics",
+          "institution": "BHU Varanasi"
+        }
+      ],
+      "contact": {
+        "email": "dhirendra.sinha@iiitvadodara.ac.in",
+        "phone": "+91-9427100970",
+        "internal": "524",
+        "office": "9006/2, Block-9, GEC, Sector-28, Gandhinagar-382028"
+      },
+      "researchInterest": [
+        "Electronic and excitonic processes in new and emerging material systems",
+        "Optoelectronic devices"
+      ],
+      "workExperience": [
+        {
+          "position": "Assistant Professor",
+          "department": "Indian Institute of Information Technology Vadodara",
+          "duration": "December 2014 - Present"
+        },
+        {
+          "position": "Assistant Professor",
+          "department": "Centre for Applied Physics, Central University of Jharkhand",
+          "duration": "February 2014 - November 2014"
+        },
+        {
+          "position": "Assistant Professor",
+          "department": "PSG Institute of Advanced Studies",
+          "duration": "July 2013 - January 2014"
+        },
+        {
+          "position": "Project Scientist",
+          "department": "SCDT, IIT Kanpur",
+          "project": "Project funded by Naval Material Research Laboratory",
+          "duration": "April - June 2013"
+        },
+        {
+          "position": "Part-time team member",
+          "project": "Printable-Electronics",
+          "institution": "SCDT, IIT Kanpur",
+          "duration": "January 2011 - March 2013"
+        }
+      ],
+      "selectedPublications": [
+        {
+          "title": "Identifying the Recombination Zone in Perovskite Solar Cells",
+          "authors": "Spandan Ranpariya, Dhirendra Kumar Sinha",
+          "book": "The Physics of Semiconductor Devices",
+          "editor": "Singh, R., Singh, M., Kapoor, A.",
+          "publicationType": "Springer Proceedings in Physics",
+          "volume": "306",
+          "year": "2024"
+        },
+        {
+          "title": "Deep Learning Enabled Early Predicting Cardiovascular Status Using Highly Sensitive Piezoelectric Sensor of Solution-Processable Nylon-11",
+          "authors": "Anand Babu, Spandan Ranpariya, Dhirendra Kumar Sinha, Arpitam Chatterjee, Dipankar Mandal",
+          "journal": "Advanced Materials Technologies",
+          "volume": "8(10)",
+          "articleNumber": "2202021",
+          "year": "2023"
+        },
+        {
+          "title": "Machine Learning-aided All-organic Air-permeable Piezoelectric Nanogenerator",
+          "authors": "Varun Gupta, Ajay Kumar, Bidya Mondal, Anand Babu, Spandan Ranpariya, Dhirendra Kumar Sinha, Dipankar Mandal",
+          "journal": "ACS Sustainable Chemistry & Engineering",
+          "volume": "11(16)",
+          "pages": "6173–6182",
+          "year": "2023"
+        },
+        {
+          "title": "Saturation of Hysteretic Effect in Current-Voltage Characteristics of Perovskite Solar Cells",
+          "authors": "Spandan Ranpariya, Dhirendra Kumar Sinha",
+          "journal": "Physica Status Solidi (a)",
+          "volume": "220(3)",
+          "articleNumber": "2200327",
+          "year": "2022"
+        },
+        {
+          "title": "Identifying recombination pathways in perovskite solar cells by simulating temperature-dependent light ideality factor",
+          "authors": "Spandan Ranpariya, Dhirendra Kumar Sinha",
+          "journal": "MRS Advances",
+          "volume": "6",
+          "pages": "334–341",
+          "year": "2021"
+        }
+      ],
+      "additionalInformation": {
+        "phdStudents": [
+          {
+            "name": "Mr. Spandankumar Ranpariya",
+            "thesisTitle": "Investigation of Parameters for Efficient Perovskite Solar Cells"
+          },
+          {
+            "name": "Mr. Dixkumar Patel",
+            "thesisTitle": "Modelling and Simulation of Perovskite Solar Cells"
+          }
+        ],
+        "teachingInterests": [
+          "Condensed Matter Physics",
+          "Semiconductor Devices",
+          "Statistical Physics",
+          "Quantum Mechanics"
+        ],
+        "coursesTaught": {
+          "PGCourses": [
+            "PH805 Review of Condensed Matter Physics",
+            "PH810 Advanced Condensed Matter Physics",
+            "PH703 Physics of Semiconductor Devices",
+            "PH804 Statistical Physics"
+          ],
+          "UGCoreCourses": [
+            "EC100 Basic Electronic Circuits",
+            "EC160 Basic Electronic Circuits Laboratory",
+            "EE100 Basic Electrical Engineering",
+            "EE160 Basic Electrical Engineering Laboratory",
+            "PH100 Mechanics and Thermodynamics",
+            "PH160 Mechanics and Thermodynamics Laboratory"
+          ],
+          "UGElectiveCourses": [
+            "SC305 Quantum Mechanics",
+            "SC403 Quantum Models in Sciences and Engineering",
+            "SC405 Introduction to Quantum Computation"
+          ]
+        }
+      }
+    }
+  ,
   "jb": {
     "name": "Dr. Jignesh S. Bhatt",
     "image": "/jb.jpg",
@@ -293,7 +437,265 @@
       }
     ]
   },
-
+  "bk": {
+    "name": "Dr. Bhupendra Kumar",
+    "image": "/bk.jpg",
+    "position": "Assistant Professor, Electronics & Communication Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Wireless Communication",
+        "institution": "IIT Delhi"
+      }
+    ],
+    "contact": {
+      "office": "9119, Block - 9, GEC, Sector - 28, Gandhinagar - 382028",
+      "email": "bhupendra_kumar@iiitvadodara.ac.in",
+      "extension": "541"
+    },
+    "researchInterest": [
+      "Signal Processing and Communication",
+      "Cooperative Communication",
+      "Cognitive Radio",
+      "Queuing Theory",
+      "Optimization and Machine Learning for Communication"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "IIIT Vadodara",
+        "year": "Present"
+      },
+      {
+        "position": "Senior Lecturer",
+        "institution": "JP University of Information Technology, Solan, H.P.",
+        "year": "July 2011 – May 2013"
+      },
+      {
+        "position": "Senior Lecturer",
+        "institution": "GLA University, Mathura, U.P.",
+        "year": "Aug 2008 – June 2011"
+      },
+      {
+        "position": "Software Engineer",
+        "institution": "nVidia Graphics Pvt. Ltd., Pune",
+        "year": "Aug 2006 – July 2007"
+      }
+    ],
+    "publications": [
+      {
+        "authors": "Bhupendra Kumar, Sachin Verma",
+        "title": "Phase and Thermal Driven Transport across T-Shaped Double Quantum Dot Josephson Junction",
+        "journal": "arXiv preprint arXiv:2208.03047",
+        "year": 2022
+      },
+      {
+        "authors": "Bhupendra Kumar, Shankar Prakriya",
+        "title": "Framework for Discrete Rate Transmission in Buffer-Aided Underlay CRN With Direct Path",
+        "journal": "IEEE Transactions on Wireless Communication",
+        "year": 2019
+      },
+      {
+        "authors": "B Kumar",
+        "title": "Performance of an underlay cooperative cognitive networks with a buffer-aided-relay",
+        "journal": "http://eprint.iitd.ac.in:80//handle/2074/8070",
+        "year": 2019
+      },
+      {
+        "authors": "Bhupendra Kumar, Shankar Prakriya",
+        "title": "Performance of Adaptive Link Selection with Buffer-Aided Relays in Underlay Cognitive Networks",
+        "journal": "IEEE Transactions on Vehicular Technology",
+        "year": 2017
+      },
+      {
+        "authors": "Bhupendra Kumar, Shankar Prakriya",
+        "title": "Rate performance of adaptive link selection in buffer-aided cognitive relay networks",
+        "journal": "IEEE 37th Sarnoff Symposium",
+        "year": 2016
+      }
+    ]
+  },
+  "kkj": {
+    "name": "Kamal Kishor Jha",
+    "image": "/kkj.jpg",
+    "designation": "Assistant Professor, Electronics & Communication Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "VLSI Design",
+        "institution": "Indian Institute of Information Technology and Management, Gwalior (2011-2015)"
+      },
+      {
+        "degree": "MTech",
+        "field": "VLSI Design",
+        "institution": " Indian Institute of Information Technology and Management, Gwalior (2008-2010)"
+      },
+      {
+        "degree": "BE",
+        "field": "",
+        "institution": "Electronics and Communication Engineering, RGPV, Bhopal (2004-2008)"
+      }
+    ],
+    "contact": {
+      "email": "kamal@iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Nanoelectronics/Nanotechnology",
+      "Nano/Micro-Sensors",
+      "Nanoscale Device Design and Modeling",
+      "Low Power VLSI Design",
+      "Embedded Systems for IoT",
+      "AI Hardware Accelerators/Neuromorphic Chip Design",
+      "Reliable and Secure Circuits"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor Grade-I",
+        "organization": "Indian Institute of Information Technology Vadodara (Gandhinagar Campus)",
+        "duration": "Feb. 2024 - Present"
+      },
+      {
+        "position": "Assistant Professor Grade-II",
+        "organization": "Indian Institute of Information Technology Vadodara (Gandhinagar Campus)",
+        "duration": "Nov. 2015 - Feb. 2024"
+      },
+      {
+        "position": "Faculty Associate",
+        "organization": "Indian Institute of Information Technology Vadodara (Gandhinagar Campus)",
+        "duration": "June 2015 - Nov. 2015"
+      },
+      {
+        "position": "Adjunct Faculty",
+        "organization": "DA-IICT Gandhinagar",
+        "duration": "Jan. 2016 - Dec. 2016"
+      },
+      {
+        "position": "Post-Graduate Teaching Assistant",
+        "organization": "Indian Institute of Information Technology and Management, Gwalior",
+        "duration": "Aug. 2011 - May 2015"
+      },
+      {
+        "position": "Assistant Professor",
+        "organization": "Manav Rachna International University (MRIU) Faridabad",
+        "duration": "July 2010 - July 2011"
+      },
+      {
+        "position": "Trainee Engineer",
+        "organization": "Taikisha Engineering India LTD., New Delhi",
+        "duration": "May 2007 - Aug. 2007"
+      }
+    ],
+    "publications": [
+      {
+        "authors": "Sudhir Rai, Kamal K. Jha",
+        "title": "First principles investigation on zigzag nanoribbons of X-Nitrides (X=B,Al,Ga) for hydrogen cyanide gas sensor",
+        "journal": "Computational and Theoretical Chemistry",
+        "volume": 1237,
+        "pages": "114620",
+        "year": 2024
+      },
+      {
+        "authors": "Mandar Jatkar, Kamal K. Jha",
+        "title": "Modeling and Performance Analysis of F-functionalized AGNR Reconfigurable Logic Gates",
+        "journal": "Diamond and Related Materials",
+        "volume": 141,
+        "pages": "110679",
+        "year": 2024
+      },
+      {
+        "authors": "Apoorva Goswami, Pramit Mazumdar, Kamal K. Jha",
+        "title": "Projection-based Perceptual Visual Quality Estimation of Point Clouds",
+        "conference": "9th International Conference on Computer Vision and Image Processing (CVIP 2024)",
+        "location": "IIITDM Kancheepuram, Chennai",
+        "year": 2024,
+        "status": "Accepted"
+      }
+    ],
+    "funding_and_projects": [
+      {
+        "title": "ARCCUMULATOR (AI and IoT POWERED SMART ELECTRICITY METER)",
+        "inventors": ["Kshitij A. Palghane", "Kamal Kishor Jha"],
+        "patent_number": "201821034946",
+        "filed_on": "Sept. 17 2018"
+      },
+      {
+        "title": "SMART EAR SENSITIVE EARPHONES",
+        "inventors": [
+          "Kshitij A. Palghane",
+          "Heet Sankesara",
+          "Kamal Kishor Jha"
+        ],
+        "patent_number": "201821031555",
+        "filed_on": "Aug. 23 2018"
+      },
+      {
+        "title": "First Principles Investigations of PtSe₂ Nanoribbons for Futuristic Nano-electronic Devices",
+        "PI": "Dr. Kamal Kishor Jha",
+        "funding_agency": "SERB",
+        "duration": "16th February 2024 to 15th February 2027",
+        "sanction_amount": "6.60L"
+      }
+    ],
+    "courses_taught": {
+      "UG": [
+        "Digital Logic Design",
+        "Computer Organization",
+        "Computer Architecture",
+        "Embedded Systems",
+        "Embedded Systems for Robotics",
+        "Microcontroller and Applications",
+        "Basic Electronics Circuits"
+      ],
+      "PG": [
+        "Topics in Nanoelectronics",
+        "Semiconductor Device Modeling",
+        "Topics in VLSI",
+        "Introduction to VLSI"
+      ]
+    },
+    "professional_activities": [
+      {
+        "activity": "Delivered an expert lecture series in Faculty Development Program on 'Recent Trends in CMOS and Beyond CMOS Devices'",
+        "location": "NIT Patna",
+        "date": "Dec. 2018"
+      },
+      {
+        "activity": "Delivered expert lecture on 'Recent Trends in CMOS and Beyond CMOS Devices'",
+        "location": "ABV-Indian Institute of Information Technology and Management, Gwalior",
+        "date": "Jan. 2019"
+      }
+    ],
+    "research_guidance": {
+      "PhD_students": { "completed": 1, "ongoing": 1 },
+      "MTech_students": 6,
+      "BTech_students": 20
+    },
+    "awards_and_achievements": [
+      {
+        "year": 2017,
+        "achievement": "Member, DST-Gujarat, Atal Tinkering Lab Design Projects Screening and Fund Distribution (50 Crore)"
+      },
+      {
+        "year": 2016,
+        "achievement": "Member, DST-Gujarat, Atal Tinkering Lab Design Projects Screening and Fund Distribution (2 Crore)"
+      },
+      {
+        "year": 2015,
+        "achievement": "Member, IEEE"
+      },
+      {
+        "year": 2008,
+        "achievement": "All India Rank (AIR) 788 in GATE (ECE)"
+      }
+    ],
+    "reviewer": [
+      "Scientific Reports, Nature",
+      "International Journal of Electronics, Elsevier",
+      "Journal of Molecular Graphics and Modelling, Elsevier",
+      "Silicon, Elsevier"
+    ],
+    "membership": ["IEEE"]
+  },
   "pm": {
     "name": "Pramit Mazumdar",
     "image": "/pm.jpg",
@@ -336,6 +738,120 @@
         "position": "Researcher",
         "institution": "Università degli Studi Roma TRE, Rome, Italy",
         "year": "May 2018 – Dec 2020"
+      }
+    ]
+  },
+
+  "sd": {
+    "name": "Dr. Sunandita Debnath",
+    "position": "Assistant Professor",
+    "image": "/sd.jpg",
+    "department": "Electronics & Communication Engineering",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Wireless Sensor Networks",
+        "institution": "NIT Silchar"
+      }
+    ],
+    "contact": {
+      "office": "Room 9103, Block-9, GEC Campus, Sector-28, Gandhinagar - 382028",
+      "email": "sunandita_debnath.iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Wireless Sensor Networks",
+      "Wireless Communication Networks",
+      "Sensing Channel Modelling",
+      "Underwater Wireless Sensor Networks"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "duration": "Present"
+      },
+      {
+        "position": "Assistant Professor Senior Grade I",
+        "department": "ECE",
+        "institution": "VIT Chennai",
+        "location": "Chennai, Tamil Nadu",
+        "duration": "June 2020 – January 2021"
+      },
+      {
+        "position": "Senior Assistant Professor",
+        "department": "ECE",
+        "institution": "Madanapalle Institute of Technology and Science",
+        "location": "Madanapalle, Andhra Pradesh",
+        "duration": "August 2018 – May 2020"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Network coverage using MI waves for Underwater Wireless Sensor Network in Shadowing Environment",
+        "journal": "IET Microwaves, Antennas & Propagation",
+        "publisher": "Wiley",
+        "volume": "15",
+        "pages": "1035–1041",
+        "year": 2021
+      },
+      {
+        "title": "Tunable Circularly Polarized Graphene Antenna for THz Applications",
+        "authors": ["G. Varshney", "Sunandita Debnath", "A. K. Sharma"],
+        "journal": "Optik-International Journal for Light and Electron Optics",
+        "publisher": "Elsevier",
+        "volume": "223",
+        "pages": "1–10",
+        "year": 2020
+      },
+      {
+        "title": "Sensor Scheduling Schemes and Network Coverage in Dense Wireless Sensor Networks",
+        "authors": ["Sunandita Debnath", "A. Hossain"],
+        "journal": "Journal of Information Science and Engineering",
+        "publisher": "Institute of Information Science",
+        "volume": "35",
+        "pages": "973–958",
+        "year": 2019
+      },
+      {
+        "title": "Network Coverage in Interference Limited Wireless Sensor Networks",
+        "authors": ["Sunandita Debnath", "A. Hossain"],
+        "journal": "Wireless Personal Communications",
+        "publisher": "Springer",
+        "volume": "109",
+        "pages": "139–153",
+        "year": 2019
+      },
+      {
+        "title": "Effective Sensing Radius (ESR) and Performance Analysis of Static and Mobile Sensor Networks",
+        "authors": [
+          "Sunandita Debnath",
+          "A. Hossain",
+          "S. M. Chowdhury",
+          "A. K. Singh"
+        ],
+        "journal": "Telecommunication Systems",
+        "publisher": "Springer",
+        "volume": "68",
+        "pages": "115–127",
+        "year": 2018
+      },
+      {
+        "title": "Impact of Interference on Coverage in Wireless Sensor Networks",
+        "authors": ["Sunandita Debnath", "A. Hossain", "S. M. Chowdhury"],
+        "journal": "Wireless Personal Communications",
+        "publisher": "Springer",
+        "volume": "97",
+        "pages": "1071–1073",
+        "year": 2017
+      },
+      {
+        "title": "Impact of Error Control Code on Characteristic Distance in Wireless Sensor Network",
+        "authors": ["S. M. Chowdhury", "A. Hossain", "Sunandita Debnath"],
+        "journal": "Wireless Personal Communications",
+        "publisher": "Springer",
+        "volume": "92",
+        "pages": "1459–1471",
+        "year": 2017
       }
     ]
   },
@@ -457,5 +973,514 @@
         ]
       }
     }
+  },
+  "bc": {
+    "name": "Barnali Chetia",
+    "image": "/bc.jpg",
+    "position": "Assistant Professor G-1 (Linguistics), HOD (Sciences & Humanities)",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Linguistics",
+        "institution": "Jawaharlal Nehru University, New Delhi"
+      },
+      {
+        "degree": "MPhil",
+        "field": "Linguistics",
+        "institution": "Jawaharlal Nehru University, New Delhi"
+      },
+      {
+        "degree": "MA",
+        "field": "Linguistics",
+        "institution": "Jawaharlal Nehru University, New Delhi"
+      },
+      {
+        "degree": "PGDM",
+        "field": "Print Journalism",
+        "institution": "IMSIT, New Delhi"
+      },
+      {
+        "degree": "UGC-NET",
+        "field": "Linguistics"
+      }
+    ],
+    "contact": {
+      "office": "9015/3, IIIT Vadodara",
+      "email": "barnali@iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Applied Linguistics",
+      "Sociolinguistics",
+      "Second Language Acquisition",
+      "ELT",
+      "Discourse Analysis",
+      "Lavender Linguistics",
+      "Gender Studies",
+      "Science Fiction",
+      "Language and Film Studies",
+      "Technical Communication"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor G-1 (Linguistics)",
+        "department": "Sciences & Humanities",
+        "institution": "Indian Institute of Information Technology Vadodara"
+      }
+    ],
+    "selectedPublications": [
+      {
+        "title": "Interrogating Patriarchal Marks: Interpreting Bhisham Sahni’s ‘Madhavi’ Through The Lens Of Feminist Discourse",
+        "book": "World Literature A Critical Compendium",
+        "publisher": "Malik & Sons Publications",
+        "year": 2024,
+        "pages": "63-73",
+        "isbn": "9789392459566"
+      },
+      {
+        "title": "Language Maintenance and Shift among Kumaoni Speakers—A Sociolinguistic Conspectus",
+        "conference": "ELKL 12 conference, Kashmir University, Srinagar",
+        "year": 2024,
+        "status": "In press"
+      },
+      {
+        "title": "Gender and Homosexuality in Carmilla and Dracula - A Peep into Vampiric Traditions",
+        "book": "Pencil Publishers",
+        "year": 2024,
+        "pages": "16-31",
+        "isbn": "9789362630230"
+      },
+      {
+        "title": "Comprehensive Study on Serious Game Design for Autistic Children",
+        "conference": "IEEE R10 Humanitarian Technology Conference",
+        "journal": "IEEE Gujarat Section",
+        "year": 2023,
+        "doi": "10.1109/R10-HTC57504.2023.10461890"
+      },
+      {
+        "title": "The impact of COVID–19 on ESL learning in India: Problems, challenges, and coping strategies",
+        "journal": "International Journal of Health Sciences (Scopus Indexed)",
+        "year": 2022,
+        "pages": "3686–3700"
+      },
+      {
+        "title": "Science Fiction and The Exultation of Feminist Single-Sex Societies",
+        "conference": "International Conference Proceedings on Humanities, Social Science and Business Management",
+        "year": 2022,
+        "location": "Malaysia"
+      },
+      {
+        "title": "Notion of Gender in Science Fiction Films and its Social Influences",
+        "journal": "Ilkogretim Online- Elementary Education Online (Scopus Indexed)",
+        "year": 2021,
+        "pages": "5319-5326"
+      },
+      {
+        "title": "The Film Life of Pi as a Multimedia Tool in English Language Classrooms of Engineering Colleges in Gujarat- An ESP Approach",
+        "journal": "Rupkatha Journal on Interdisciplinary Studies in Humanities (Scopus Indexed)",
+        "year": 2020,
+        "pages": "01-19"
+      },
+      {
+        "title": "The Angry Woman of Indian Cinema- A Saga of the Marginal",
+        "journal": "High Technology Letters (Scopus Indexed)",
+        "year": 2020,
+        "pages": "1012-1018"
+      },
+      {
+        "title": "The Forgotten Saga of Rangpur's Ahoms- An Ethnographic Approach",
+        "journal": "High Technology Letters (Scopus Indexed)",
+        "year": 2020,
+        "pages": "276-284"
+      },
+      {
+        "title": "The use of Lexical Features in Promoting Sales- A Linguistic Analysis",
+        "conference": "The 16th International Conference on Multidisciplinary Trends in Social Sciences and Business Research",
+        "location": "Sydney, Australia",
+        "year": 2018
+      },
+      {
+        "title": "Cradle Song- A Compendium of Indian Science Fiction Stories",
+        "publisher": "Sara Publications",
+        "year": 2017,
+        "isbn": "978173036260"
+      },
+      {
+        "title": "The Language of English Advertisement Texts- Selected Essays",
+        "publisher": "Sara Publications",
+        "year": 2017,
+        "isbn": "9781730387050"
+      },
+      {
+        "title": "Code-Switching and Mixing in Communication- A Study on Language Contact in Indian Media",
+        "conference": "The RAIS international conference",
+        "editor": "Ioan Gheorghe Rotaru"
+      }
+    ],
+    "additionalInformation": {
+      "sponsoredProjects": [
+        {
+          "title": "Comprehensive Study on Serious Game Design for Autistic Children",
+          "conference": "IEEE R10 Humanitarian Technology Conference",
+          "institution": "Marwadi University",
+          "year": 2023
+        }
+      ]
+    },
+  "dr": {
+    "name": "Dibyendu Roy",
+    "image": "/dr.jpg",
+    "designation": "Assistant Professor (Science, Math, & Humanities)",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Mathematics",
+        "institution": "IIT Kharagpur, 2016"
+      },
+      {
+        "degree": "MSc",
+        "field": "Mathematics",
+        "institution": "IIT Kharagpur, 2011"
+      },
+      {
+        "degree": "BSc",
+        "field": "Mathematics",
+        "institution": "University of Calcutta, 2009"
+      }
+    ],
+    "contact": {
+      "office": "Block - 9, GEC, Sector - 28, Gandhinagar - 382028",
+      "email": "dibyendu [dot] roy [at] iiitvadodara [dot] ac [dot] in",
+      "personal_webpage": "https://iiitvadodara.ac.in/dibyendu_roy.php"
+    },
+    "researchInterest": [
+      "Cryptology",
+      "Design and analysis of Boolean function",
+      "Security analysis of cryptographic protocols"
+    ],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "duration": "Since Dec 2020"
+      },
+      {
+        "position": "Postdoctoral fellow-cum-lecturer",
+        "institution": "Indian Statistical Institute, Kolkata, India",
+        "duration": "Oct 2020 to Dec 2020"
+      },
+      {
+        "position": "Visiting Scientist",
+        "institution": "Indian Statistical Institute, Kolkata, India",
+        "duration": "Jan 2020 to Sept 2020"
+      },
+      {
+        "position": "Consultant",
+        "institution": "ERTL(E), STQC, Kolkata",
+        "duration": "Dec 2019 to Dec 2020"
+      },
+      {
+        "position": "Postdoctoral fellow",
+        "institution": "National Institute of Science Education and Research, India",
+        "duration": "Nov 2016 to Nov 2018"
+      }
+    ],
+    "selected_publications": [
+      {
+        "authors": "Meenakshi Kansal, Animesh Roy, Dibyendu Roy, Srinivasu Bodapati, Anupam Chattopadhyay",
+        "title": "Priority Arbiter PUF: Analysis",
+        "journal": "Discrete Applied Mathematics",
+        "volume": "356",
+        "pages": "71-95",
+        "publisher": "Elsevier",
+        "year": 2024
+      },
+      {
+        "authors": "Pierrick Meaux, Dibyendu Roy",
+        "title": "Theoretical differential fault attacks on FLIP and FiLIP",
+        "journal": "Cryptography and Communications",
+        "volume": "16(4)",
+        "pages": "721-744",
+        "publisher": "Springer",
+        "year": 2024
+      },
+      {
+        "authors": "R Radheshwar, Meenakshi Kansal, Pierrick Meaux, Dibyendu Roy",
+        "title": "Differential Fault Attack on Rasta and FiLIPDSM",
+        "journal": "IEEE Transactions on Computers",
+        "volume": "72(8)",
+        "pages": "2418-2425",
+        "year": 2023
+      },
+      {
+        "authors": "Dibyendu Roy, Deepak Kumar Dalai",
+        "title": "An Observation of Non-randomness in NFSR Based Stream Ciphers with Reduced Initialization Round",
+        "journal": "Journal of Hardware and Systems Security",
+        "volume": "5",
+        "pages": "89–102",
+        "publisher": "Springer",
+        "year": 2021
+      },
+      {
+        "authors": "Dibyendu Roy, Bhagwan Bathe, Subhamoy Maitra",
+        "title": "Differential Fault Attack on Kreyvium & FLIP",
+        "journal": "IEEE Transactions on Computers",
+        "volume": "70",
+        "pages": "2161-2167",
+        "year": 2021
+      },
+      {
+        "authors": "Bhagwan Bathe, Siddhartha Tiwari, Ravi Anand, Dibyendu Roy, Subhamoy Maitra",
+        "title": "Differential Fault Attack on Espresso",
+        "journal": "Proceedings of 22nd edition of International Conference on Cryptology in India (Indocrypt 2021)",
+        "volume": "13143",
+        "pages": "271-286",
+        "publisher": "Springer India",
+        "year": 2021
+      },
+      {
+        "authors": "Animesh Roy, Dibyendu Roy, Subhamoy Maitra",
+        "title": "How do the Arbiter PUFs Sample the Boolean Function Class?",
+        "journal": "Proceedings of 28th Edition of Selected Areas in Cryptography (SAC 2021)",
+        "volume": "13203",
+        "pages": "111-131",
+        "publisher": "Springer Canada",
+        "year": 2021
+      },
+      {
+        "authors": "Chandra Sekhar Mukherjee, Dibyendu Roy, Subhamoy Maitra",
+        "title": "Design & Cryptanalysis of ZUC-A Stream Cipher in Mobile Telephony",
+        "publisher": "Springer",
+        "year": 2021
+      },
+      {
+        "authors": "Chandra Sekhar Mukherjee, Subhamoy Maitra, Vineet Gaurav, Dibyendu Roy",
+        "title": "Preparing Dicke States on a Quantum Computer",
+        "journal": "IEEE Transactions on Quantum Engineering",
+        "year": 2020
+      },
+      {
+        "authors": "Subhamoy Maitra, Bimal Mandal, Thor Martinsen, Dibyendu Roy, Pantelimon Stanica",
+        "title": "Analysis on Boolean function in a restricted (biased) domain",
+        "journal": "IEEE Transactions on Information Theory",
+        "volume": "66",
+        "pages": "1219-1231",
+        "year": 2020
+      }
+    ],
+    "sponsored_project": "https://iiitvadodara.ac.in/dibyendu_roy.php"
+  },
+  "sl": {
+    "name": "Swapnil A. Lokhande",
+    "image": "/sl.jpg",
+    "designation": "Assistant Professor (Science, Math, & Humanities)",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Mathematics",
+        "institution": " IIT Bombay"
+      }
+    ],
+    "contact": {
+      "email": "swapnil.iiitvadodara.ac.in"
+    },
+    "researchInterest": ["Commutative Algebra"],
+    "workExperience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "Indian Institute of Information Technology Vadodara",
+        "duration": "Dec 2015 - till date"
+      },
+      {
+        "position": "NBHM Post-Doctoral Fellow",
+        "institution": "ISI Kolkata",
+        "duration": "Sep 2015 to Nov 2015"
+      },
+      {
+        "position": "Visiting Scientist",
+        "institution": "ISI Kolkata",
+        "duration": "Sep 2014 to Aug 2015"
+      }
+    ],
+    "selected_publications": []
+  },
+  "an": {
+    "name": "Dr. Ajay Nath",
+    "position": "Assistant Professor",
+    "image": "/an.jpg",
+    "department": "Science, Math, & Humanities",
+    "academicQualifications": [
+      {
+        "degree": "PhD",
+        "field": "Physics",
+        "institution": "Indian Institute of Technology Patna, India"
+      }
+    ],
+    "contact": {
+      "email": "ajay.nath.iiitvadodara.ac.in"
+    },
+    "researchInterest": [
+      "Quantum simulation with ultracold atoms",
+      "Optical lattices",
+      "Solitons"
+    ],
+    "workExperience": [],
+    "courses_taught": [
+      "PH 802: Mathematical Physics and Numerical Methods",
+      "PH 803: Review of Quantum Mechanics",
+      "PH 807: Physics of Ultra Cold Atoms",
+      "SC 405: Computational Physics",
+      "SC 305: Modern Optics",
+      "SC 308: Fundamentals of Photonics",
+      "PH 100: Mechanics and Thermodynamics",
+      "PH 120: Waves and Electromagnetics",
+      "PH 170: Mechanics and Thermodynamics Laboratory",
+      "PH 180: Waves and Electromagnetics Laboratory",
+      "MA 102: Calculus",
+      "CS 305: Numerical Linear Algebra"
+    ],
+    "publications": [
+      {
+        "title": "Quantum droplet speed management and supersolid behavior in external harmonic confinement",
+        "authors": ["Saurabh Das", "Ajay Nath"],
+        "journal": "arXiv",
+        "identifier": "2407.10463",
+        "year": 2024,
+        "status": "Under review"
+      },
+      {
+        "title": "Generation of Patterns and higher harmonics in 1D quantum droplets in tilted and driven quasi-periodic confinements",
+        "authors": [
+          "Maitri R. Pathak",
+          "Jayanta Bera",
+          "Utpal Roy",
+          "Ajay Nath"
+        ],
+        "journal": "Scientific Reports (Nature Portfolio)",
+        "status": "Accepted",
+        "year": 2024
+      },
+      {
+        "title": "Impurity identification in an ultracold gas of bosons atoms in phase-space",
+        "authors": ["J Jogania", "J Bera", "A Nath", "U Roy"],
+        "journal": "AIP Conference Proceedings",
+        "volume": "3149(1)",
+        "year": 2024
+      },
+      {
+        "title": "Aug-Labs: Redefining Scientific Education with Smartphone-Integrated Augmented Laboratories",
+        "authors": [
+          "J Asudhani",
+          "R Chahar",
+          "S Gaur",
+          "A Maurya",
+          "P Mazumdar",
+          "A Nath"
+        ],
+        "journal": "IEEE 11th Region 10 Humanitarian Technology Conference (R10-HTC)",
+        "pages": "352-358",
+        "year": 2023
+      },
+      {
+        "title": "Investigation of one-dimensional quantum droplets in a temporally perturbed external harmonic trap",
+        "authors": ["S Bhatia", "CN Kumar", "Ajay Nath"],
+        "journal": "Physics Letters A",
+        "volume": "492",
+        "identifier": "129228",
+        "year": 2023
+      },
+      {
+        "title": "Solitary matter waves in a tunable bi-periodic optical lattice with two- and three-body interactions",
+        "authors": [
+          "Ajay Nath",
+          "Jayanta Bera",
+          "Maitri R. Pathak",
+          "Utpal Roy"
+        ],
+        "journal": "Eur. Phys. J. D",
+        "volume": "76",
+        "identifier": "241",
+        "year": 2022
+      },
+      {
+        "title": "Droplet to soliton crossover at negative temperature in presence of bi-periodic optical lattices",
+        "authors": ["Maitri R. Pathak", "Ajay Nath"],
+        "journal": "Scientific Reports (Nature Portfolio)",
+        "volume": "12",
+        "identifier": "18248",
+        "year": 2022
+      },
+      {
+        "title": "Formation of Matter-Wave Droplet Lattices in Multi-Color Periodic Confinements",
+        "authors": ["Maitri R. Pathak", "Ajay Nath"],
+        "journal": "Symmetry",
+        "volume": "14",
+        "identifier": "963",
+        "year": 2022,
+        "note": "Special Issue Symmetry in Many-Body Physics"
+      },
+      {
+        "title": "Dynamics of Quantum Droplets in an External Harmonic Confinement",
+        "authors": ["Maitri R. Pathak", "Ajay Nath"],
+        "journal": "Scientific Reports (Nature Portfolio)",
+        "volume": "12",
+        "identifier": "6904",
+        "year": 2022,
+        "note": "Top 100 in Physics - 2022"
+      },
+      {
+        "title": "Synergy between the Negative Absolute Temperature and the External Trap for a Bose-Einstein Condensate under Optical Lattices",
+        "authors": [
+          "Nilanjan Kundu",
+          "Ajay Nath",
+          "Jayanta Bera",
+          "Suranjana Ghosh",
+          "Utpal Roy"
+        ],
+        "journal": "Physics Letters A",
+        "volume": "427",
+        "identifier": "127922",
+        "year": 2022
+      },
+      {
+        "title": "Exact Analytical Model for Bose-Einstein Condensate at Negative Temperature",
+        "authors": ["Ajay Nath", "J. Bera", "S. Ghosh", "Utpal Roy"],
+        "journal": "Scientific Reports (Nature Portfolio)",
+        "volume": "10",
+        "identifier": "9016",
+        "year": 2020
+      },
+      {
+        "title": "Soliton Dynamics for an Ingenious Trap Combination in a Bose-Einstein Condensate",
+        "authors": [
+          "Ajay Nath",
+          "J. Bera",
+          "S. Ghosh",
+          "P.K. Panigrahi",
+          "Utpal Roy"
+        ],
+        "journal": "Eur. Phys. J. D",
+        "volume": "74",
+        "identifier": "27",
+        "year": 2020
+      },
+      {
+        "title": "Bose-Einstein condensate in a bichromatic optical lattice: an exact analytical model",
+        "authors": ["Ajay Nath", "Utpal Roy"],
+        "journal": "Laser Physics Letters",
+        "volume": "11",
+        "identifier": "115501",
+        "year": 2014,
+        "note": "Selected as Highlight of 2014 in Physics of cold atom section"
+      },
+      {
+        "title": "A unified model for an external trap in a cigar-shaped Bose-Einstein condensate",
+        "authors": ["Ajay Nath", "Utpal Roy"],
+        "journal": "Journal of Physics A: Mathematical and Theoretical",
+        "volume": "47",
+        "identifier": "415301",
+        "year": 2014
+      }
+    ]
   }
+}
 }

@@ -115,8 +115,8 @@ MTech (IT): GGSIPU Delhi
               li3={"Solitons"}
             />
             <Faculty
-              jb={"ac"}
-              imgurl={"/ac.jpg"}
+              jb={"bc"}
+              imgurl={"/bc.jpg"}
               name={"Dr. Barnali Chetia"}
               link="https://iiitvadodara.ac.in/barnali_chetia.php"
               degree={`Ph.D. (Linguistics)\nJNU, New Delhi`}
