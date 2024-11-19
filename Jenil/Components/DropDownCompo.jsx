@@ -8,7 +8,7 @@ const DropDownCompo = ({ setMenu }) => {
   let bgIMages = {
     1: { 
       image: "/faculty.jpg",
-      gradient: ' from-[#000000] to-[#777777] ' 
+      gradient: ' from-[#000000] to-[#9d9692] ' 
     },
     2: { 
       image: "/placaments.jpeg", 
