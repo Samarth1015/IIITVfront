@@ -49,7 +49,7 @@ export default function Seat() {
   return (
     <div
       ref={containerRef} // Attach the containerRef to the parent div
-      className="w-full h-fit py-10 bg-[#003c5f] relative z-10 flex flex-col justify-start  rounded-lg"
+      className="w-full h-fit py-10  relative z-10 flex flex-col justify-start  rounded-lg"
     >
       <p className="program-heading opacity-100 text-[#003c5f] font-bold self-center text-3xl md:text-5xl z-10">
         Admission
