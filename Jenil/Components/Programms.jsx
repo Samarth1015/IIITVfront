@@ -35,7 +35,7 @@ const Programms = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen mb-[7em] md:mb-12">
+    <div className="w-full h-screen mb-[15em] md:mb-12">
       <div className="w-full h-fit py-10 bg-[#fff] relative z-10 flex flex-col justify-start">
         <p className="program-heading opacity-100 text-[#003c5f] font-bold self-center text-3xl md:text-5xl z-10">
           Programs

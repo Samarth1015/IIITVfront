@@ -83,7 +83,7 @@ export default function Sr() {
   }, []);
 
   return (
-    <div className="overflow-x-auto px-4 py-8 max-h-96 mb-5 events-table-container">
+    <div className="overflow-x-auto px-4 py-8 h-fit mb-5 events-table-container">
       <table className="relative min-w-full border-collapse bg-white rounded-lg shadow-md overflow-hidden">
         <thead>
           <tr>

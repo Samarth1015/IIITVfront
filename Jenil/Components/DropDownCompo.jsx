@@ -7,12 +7,12 @@ import { RxCross2 } from "react-icons/rx";
 const DropDownCompo = ({ setMenu }) => {
   let bgIMages = {
     1: { 
-      image: "/faculty.jpeg",
-      gradient: ' from-[#000] to-[#777777] ' 
+      image: "/faculty.jpg",
+      gradient: ' from-[#000000] to-[#777777] ' 
     },
     2: { 
-      image: "/placement.webp", 
-      gradient: 'from-[#060802] to-[#2d91c4]' 
+      image: "/placaments.jpeg", 
+      gradient: 'from-[#060802] to-[#c55865]' 
     },
     3: { 
       image: "/hostel.jpg", 

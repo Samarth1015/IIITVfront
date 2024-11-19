@@ -137,7 +137,7 @@ export default function HorizontalSlider() {
   return (
     <div className="overflow-hidden w-full py-8">
       <div className="flex justify-center text-5xl">
-        <h1 className="mb-2">Top companies</h1>
+        <h1 className="mb-2 text-2xl font-bold self-center">Top companies</h1>
       </div>
       <div
         ref={sliderRef}
@@ -173,7 +173,7 @@ export default function HorizontalSlider() {
             "https://sites.google.com/iiitvadodara.ac.in/placement2021/placement-highlights/our-recruiters?authuser=0"
           }
         >
-          <button className="mt-9 -mr-10  flex  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150 ">
+          <button className="md:mt-9 md:-mr-10  flex  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150 ">
             Our Recruiter
           </button>
         </Link>

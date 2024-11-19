@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 const ExtraPage = () => {
@@ -101,7 +102,7 @@ const ExtraPage = () => {
             </span>
           </div>
         </div>
-        <button className="-mr-10  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150">Placements Report</button>
+       <Link className="self-center z-20 mt-2" href={"/stats"}><button className="-mr-10  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150">Placements Report</button></Link> 
       </div>
     </div>
   );

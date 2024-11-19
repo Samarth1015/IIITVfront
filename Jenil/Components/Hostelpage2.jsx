@@ -11,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Hostelpage2 = () => {
   const amenitiesRef = useRef([]);
+  const underlineRef = useRef(null);
 
   useEffect(() => {
     gsap.fromTo(
@@ -28,17 +29,48 @@ const Hostelpage2 = () => {
         },
       }
     );
+    // Animate the underline div
+    gsap.fromTo(
+      underlineRef.current,
+      { width: "0%" }, // Initial width
+      {
+        width: "25%", // Target width (match the defined width in Tailwind)
+        duration: 1,
+        ease: "power3.out",
+      }
+    );
   }, []);
 
   const amenities = [
-    { icon: <FaHandHoldingWater className="text-2xl md:text-4xl" />, label: "RO Water" },
-    { icon: <MdFastfood className="text-2xl md:text-4xl" />, label: "Dining Hall" },
+    {
+      icon: <FaHandHoldingWater className="text-2xl md:text-4xl" />,
+      label: "RO Water",
+    },
+    {
+      icon: <MdFastfood className="text-2xl md:text-4xl" />,
+      label: "Dining Hall",
+    },
     { icon: <CgGym className="text-2xl md:text-4xl" />, label: "Gymnasium" },
-    { icon: <GiMusicalScore className="text-2xl md:text-4xl" />, label: "Musical instruments" },
-    { icon: <PiSecurityCamera className="text-2xl md:text-4xl" />, label: "Round the Clock Security" },
-    { icon: <MdDryCleaning className="text-2xl md:text-4xl" />, label: "House Keeping" },
-    { icon: <FaAmbulance className="text-2xl md:text-4xl" />, label: "Emergency Vehicle" },
-    { icon: <FaFemale className="text-2xl md:text-4xl" />, label: "Female Caretaker" },
+    {
+      icon: <GiMusicalScore className="text-2xl md:text-4xl" />,
+      label: "Musical instruments",
+    },
+    {
+      icon: <PiSecurityCamera className="text-2xl md:text-4xl" />,
+      label: "Round the Clock Security",
+    },
+    {
+      icon: <MdDryCleaning className="text-2xl md:text-4xl" />,
+      label: "House Keeping",
+    },
+    {
+      icon: <FaAmbulance className="text-2xl md:text-4xl" />,
+      label: "Emergency Vehicle",
+    },
+    {
+      icon: <FaFemale className="text-2xl md:text-4xl" />,
+      label: "Female Caretaker",
+    },
   ];
 
   return (
@@ -46,13 +78,16 @@ const Hostelpage2 = () => {
       <h1 className="mt-10 text-4xl self-center text-[#20385a] font-bold">
         Hostel Amenities
       </h1>
+
+      <div
+        ref={underlineRef}
+        className="w-3/12 h-1 rounded-xl bg-yellow-300 self-center"></div>
       <div className="w-10/12 h-fit py-8 md:py-10 grid grid-cols-2 md:grid-cols-4 gap-10 self-center">
         {amenities.map((item, index) => (
           <div
             key={index}
             className="h-20 ml-7 border-2 border-[#20385a] md:ml-0 md:h-44 w-20 md:w-64  flex flex-col items-center justify-center md:gap-2 hover:border-2 text-[#20385a] transition-all  duration-150 hover:bg-[#20385a] hover:text-white text-center"
-            ref={(el) => (amenitiesRef.current[index] = el)}
-          >
+            ref={(el) => (amenitiesRef.current[index] = el)}>
             {item.icon}
             <p className="text-[10px] md:text-xl py-2">{item.label}</p>
           </div>

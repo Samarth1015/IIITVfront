@@ -5,7 +5,7 @@ export default function All() {
   return (
     <div>
       <div className=" flex justify-center">
-        <h1 className="text-5xl">Announcement</h1>
+        <h1 className="text-2xl font-bold mt-2">Announcement</h1>
       </div>
       <div>
         <Sr></Sr>
