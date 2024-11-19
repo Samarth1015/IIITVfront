@@ -82,8 +82,9 @@ const HostelPage = () => {
         >
           <div ref={imageRef} className=' md:w-auto w-full'>
             <Image
-              src={'/jeetRoyal.jpg'}
+              src={'/jr.jpg'}
               width={350}
+              objectFit='cover'
               height={450}
               alt="IIITV Hostel"
             />

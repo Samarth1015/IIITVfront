@@ -86,10 +86,10 @@ export default function Footer() {
 
         <div className="flex justify-between space-x-2 md:space-x-6 mt-8 footer-section">
           <div className="min-w-28">
-            <h1 className="font-semibold md:text-4xl  mb-1 text-[#7FD2EF]">
+            <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               Important Link
             </h1>
-            <ul>
+            <ul className="text-[10px] md:text-xl">
               <li>Tender</li>
               <li>RTI</li>
               <li>Vigilance</li>
@@ -100,10 +100,10 @@ export default function Footer() {
             </ul>
           </div>
           <div className="min-w-28">
-            <h1 className="font-semibold md:text-4xl  mb-1 text-[#7FD2EF]">
+            <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               Quick Link
             </h1>
-            <ul>
+            <ul className="text-[10px] md:text-xl">
               <li>SWAYAM</li>
               <li>SWAYAM Prabha</li>
               <li>e-Yantra</li>
@@ -115,10 +115,10 @@ export default function Footer() {
             </ul>
           </div>
           <div className="min-w-28">
-            <h1 className="font-semibold md:text-4xl  mb-1 text-[#7FD2EF]">
+            <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               E-Resources
             </h1>
-            <ul>
+            <ul className="text-[10px] md:text-xl">
               <li>Moodle</li>
               <li>NPTEL@IIITV</li>
               <li>Matlab Online</li>

@@ -49,7 +49,7 @@ export default function Seat() {
   return (
     <div
       ref={containerRef} // Attach the containerRef to the parent div
-      className="w-full h-fit py-10 bg-[#003c5f] relative z-10 flex flex-col justify-start mb-8 rounded-lg"
+      className="w-full h-fit py-10 bg-[#003c5f] relative z-10 flex flex-col justify-start  rounded-lg"
     >
       <video
         className="absolute opacity-65 hover:opacity-40 -z-10 transition-all duration-150 inset-0 w-full h-full object-cover"
