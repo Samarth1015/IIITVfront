@@ -7,14 +7,14 @@ import Hidden from "./Hidden";
 
 export default function Animate() {
   const photos = [
-    "/photo/img1.jpg",
-    "/photo/img2.jpg",
-    "/photo/img3.jpg",
-    "/photo/img4.jpg",
-    "/photo/img5.jpg",
-    "/photo/img6.jpg",
-    "/photo/img7.jpg",
-    "/photo/img8.jpg",
+    "/photo/img1-min.jpg",
+    "/photo/img2-min.jpg",
+    "/photo/img3-min.jpg",
+    "/photo/img4-min.jpg",
+    "/photo/img5-min.jpg",
+    "/photo/img6-min.jpg",
+    "/photo/img7-min.jpg",
+    "/photo/img8-min.jpg",
   ];
 
   const slideshowRef = useRef();
