@@ -46,7 +46,7 @@ export default function Animate() {
               src={photo}
               alt={`Slideshow Image ${idx + 1}`}
               layout="responsive"
-              className="object-cover "
+              className="object-cover h-full"
             />
           </div>
         ))}
