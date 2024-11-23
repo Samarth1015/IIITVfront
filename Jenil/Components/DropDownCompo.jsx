@@ -69,14 +69,14 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
         </Link>
         <div className='self-center flex flex-col justify-center'>
-          <div className="w-full  flex flex-row justify-center md:justify-end cursor-pointer my-5">
+          <div className="w-full  flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
            <Link href={'/Faculty'}  target='_blank'>
             <p onMouseEnter={() => handleImageChange(bgIMages[1])} className=' text-2xl  md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Faculty
             </p>
             </Link>
           </div>
-          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
           <Link href={'/stats'} target='_blank'>
           
             <p onMouseEnter={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
@@ -86,7 +86,7 @@ const DropDownCompo = ({ setMenu }) => {
 
           </div>
           <Link href={'/Hostel'}>
-          <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+          <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
             <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Hostels
             </p>
@@ -94,7 +94,7 @@ const DropDownCompo = ({ setMenu }) => {
           </Link>
           <Link href={'/Calender'}  target='_blank'>
 
-          <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5">
+          <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
             <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
             </p>

@@ -53,15 +53,15 @@ const ExtraPage = () => {
       ></div>
 
       {/* Content Layer */}
-      <div className=" relative w-screen h-screen flex flex-col justify-start pr-10 md:pr-0 md:justify-center py-10 bg-[#003c5f]">
+      <div className=" relative w-screen h-screen flex flex-col justify-start gap-4 pr-10 md:pr-0 md:justify-center py-10 bg-[#003c5f]">
         <strong className="self-center text-white text-2xl font-sans py-9">
           Placements
         </strong>
 
         {/* Row 1 */}
-        <div className="row md:ml-20 w-8/12 flex flex-row self-center gap-2 z-20">
-          <div className="pl-16 ml-4 h-32 md:px-0 md:w-60 md:h-40 bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-r-2xl/l  flex flex-row-reverse">
-            <p className="self-center text-white text-xl md:text-4xl font-bold pr-2">
+        <div className="row md:ml-20 w-8/12 flex flex-row self-center  gap-2 z-20">
+          <div className="pl-16 ml-4 h-32 md:px-0 md:w-72 md:h-36 bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+            <p className="self-center text-white text-xl md:text-4xl font-bold pr-6">
               THE <br /> TOP
             </p>
           </div>
@@ -74,9 +74,9 @@ const ExtraPage = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="row md:ml-80 w-8/12 flex flex-row self-center gap-2 z-20">
-          <div className="pl-20 ml-4 h-32 md:px-0 md:w-60 md:h-40  bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-r-2xl  flex flex-row-reverse">
-            <p className="self-center text-xl md:text-4xl font-bold pr-2 text-right text-white">
+        <div className="row md:ml-80 w-8/12 flex flex-row self-center  gap-2 z-20">
+          <div className="pl-20 ml-4 h-32 md:px-0 md:w-72 md:h-36  bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+            <p className="self-center text-xl md:text-4xl font-bold pr-6 text-right text-white">
               THE <br /> MOST
             </p>
           </div>
@@ -89,9 +89,9 @@ const ExtraPage = () => {
         </div>
 
         {/* Row 3 */}
-        <div className="row md:ml-[40em] w-8/12 flex flex-row self-center gap-2 text-right z-20">
-          <div className="pl-[120px] ml-4 h-32 md:px-0 md:w-60 md:h-40   bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-r-2xl  flex flex-row-reverse">
-            <p className="self-center text-white  text-xl md:text-4xl font-bold pr-2">
+        <div className="row md:ml-[40em] w-8/12 flex flex-row self-center  gap-2 text-right z-20">
+          <div className="pl-[120px] ml-4 h-32 md:px-0 md:w-72 md:h-36   bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+            <p className="self-center text-white  text-xl md:text-4xl font-bold pr-6">
               THE <br /> BEST
             </p>
           </div>
