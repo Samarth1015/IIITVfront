@@ -21,9 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <title>IIIT Vadodara</title>
-      </Head>
+      <head>
+        <link rel="icon" href="/mainlogo2.png"></link>
+      </head>
       <body
         suppressHydrationWarning={true}
         className="__variable_1e4310 __variable_c3aa02 antialiased"
