@@ -60,7 +60,7 @@ const ExtraPage = () => {
 
         {/* Row 1 */}
         <div className="row md:ml-20 w-8/12 flex flex-row self-center gap-2 z-20">
-          <div className="pl-16 ml-4 h-32 md:px-0 md:w-60 md:h-40 bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-r-2xl  flex flex-row-reverse">
+          <div className="pl-16 ml-4 h-32 md:px-0 md:w-60 md:h-40 bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-r-2xl/l  flex flex-row-reverse">
             <p className="self-center text-white text-xl md:text-4xl font-bold pr-2">
               THE <br /> TOP
             </p>

@@ -38,15 +38,15 @@ export default function Hidden() {
   }, []);
   return (
     <div className="bg-[#032b43]  text-white p-8     overflow-hidden shadow-lg">
-      <h2 className="text-3xl font-serif font-bold mb-4 mx-auto underline ">
+      <h2 className="text-xl md:text-3xl font-serif font-bold mb-4 mx-auto underline  ">
         Announcement
       </h2>
       <div className="mb-5 flex-col  ">
-        <div className="min-h-36">
+        <div className="min-h-28">
           <p
             id="myText"
             ref={textRef}
-            className="text-xl font-bold text-white"
+            className="text-sm md:text-xl font-bold text-white"
           ></p>
         </div>
       </div>
