@@ -58,7 +58,7 @@ export default function Seat() {
       <div className="w-full py-20 flex flex-col md:flex-row justify-center md:justify-evenly self-center gap-10">
         {[
           {
-            title: "JoSSA",
+            title: "JoSAA",
             link: "https://iiitvadodara.ac.in/admission_btech.php",
           },
           {
