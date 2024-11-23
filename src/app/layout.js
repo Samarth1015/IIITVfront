@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/mainlogo2.png"></link>
+        <title>IIIT Vadodara</title>
       </head>
       <body
         suppressHydrationWarning={true}

@@ -9,14 +9,23 @@ export default function Stats() {
 
   return (
     <>
-    
-        <div>
-          <Initialheader setMenu={setMenu}></Initialheader>
-          <Graph></Graph>
+      <div
+        className={`flex flex-col overflow-x-hidden overflow-y-hidden ${
+          menu ? "hidden" : ""
+        }`}
+      >
+        <Initialheader setMenu={setMenu}></Initialheader>
+        <Graph></Graph>
 
-          <Footer></Footer>
-        </div>
-      
-  </>
+        <Footer></Footer>
+      </div>
+      <div
+        className={`flex flex-col overflow-x-hidden overflow-y-hidden ${
+          !menu ? "hidden" : ""
+        }`}
+      >
+        {menu && <DropDownCompo setMenu={setMenu} />}
+      </div>
+    </>
   );
 }
