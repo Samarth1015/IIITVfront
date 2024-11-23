@@ -8,7 +8,7 @@ const DropDownCompo = ({ setMenu }) => {
   let bgIMages = {
     1: { 
       image: "/faculty.jpg",
-      gradient: ' from-[#000000] to-[#9d9692] ' 
+      gradient: ' from-[#000000] to-[#3d5981] ' 
     },
     2: { 
       image: "/placaments.jpeg", 
@@ -45,7 +45,7 @@ const DropDownCompo = ({ setMenu }) => {
 
   return (
     <div className={`fixed w-full h-screen flex flex-col-reverse md:flex-row transform ${isVisible ? 'translate-y-0' : '-translate-y-full'} md:transition-transform duration-500 ease-in-out`}>
-      <div className={`py-10 w-full md:w-5/12 h-full bg-gradient-to-br  flex flex-row justify-center ${gradient} md:justify-end`}>
+      <div className={`py-10 w-full md:w-5/12 h-full bg-gradient-to-br  flex flex-row justify-center ${gradient} md:bg-[#003c5f] md:justify-end`}>
         <Link href="/">
           <div className="flex flex-row items-center absolute top-0 left-0">
             <div className="flex-shrink-0">
@@ -69,15 +69,15 @@ const DropDownCompo = ({ setMenu }) => {
           </div>
         </Link>
         <div className='self-center flex flex-col justify-center'>
-          <div className="w-full  flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
-           <Link href={'/Faculty'}  target='_blank'>
+          <div className="w-full  flex flex-row justify-center md:justify-end  cursor-pointer my-5 ">
+           <Link href={'/Faculty'}  className='md:mr-5'>
             <p onMouseEnter={() => handleImageChange(bgIMages[1])} className=' text-2xl  md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Faculty
             </p>
             </Link>
           </div>
-          <div className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
-          <Link href={'/stats'} target='_blank'>
+          <div className="w-full flex flex-row justify-center md:justify-end  cursor-pointer my-5 ">
+          <Link href={'/stats'} className='md:mr-5'>
           
             <p onMouseEnter={() => handleImageChange(bgIMages[2])} className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Placements
@@ -85,16 +85,16 @@ const DropDownCompo = ({ setMenu }) => {
             </Link>
 
           </div>
-          <Link href={'/Hostel'}>
-          <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
+          <Link href={'/Hostel'}  className='md:mr-5'>
+          <div onMouseEnter={() => handleImageChange(bgIMages[3])} className="w-full flex flex-row justify-center md:justify-end  cursor-pointer my-5 ">
             <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform'>
               Hostels
             </p>
           </div>
           </Link>
-          <Link href={'/Calender'}  target='_blank'>
+          <Link href={'/Calender'}  className='md:mr-5'>
 
-          <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end cursor-pointer my-5 ">
+          <div onMouseEnter={() => handleImageChange(bgIMages[4])} className="w-full flex flex-row justify-center md:justify-end  cursor-pointer my-5 ">
             <p className=' text-2xl md:text-6xl font-bold text-end text-white hover:md:-translate-x-10 my-4 md:my-8 md:transition-transform ease-in-out'>
               Calendar
             </p>
