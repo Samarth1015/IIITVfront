@@ -177,7 +177,7 @@ export default function HorizontalSlider() {
             Our Recruiter
           </button>
         </Link>
-      </div>++
+      </div>
     </div>
   );
 }
