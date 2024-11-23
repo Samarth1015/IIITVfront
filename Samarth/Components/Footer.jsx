@@ -85,48 +85,94 @@ export default function Footer() {
         <div className="bg-[#325462] w-full h-[0.09px] footer-section"></div>
 
         <div className="flex justify-between space-x-2 md:space-x-6 mt-8 footer-section">
-          <div className="min-w-28">
+          <div className="min-w-28  ">
             <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               Important Link
             </h1>
-            <ul className="text-[10px] md:text-xl">
-              <li>Tender</li>
-              <li>RTI</li>
-              <li>Vigilance</li>
-              <li>Placement</li>
-              <li>Hostel</li>
-              <li>Gallery</li>
-              <li>FAQs</li>
+            <ul className="text-[10px] md:text-lg ">
+              <Link href="">
+                <li className="hover:text-blue-400">Tender</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">RTI</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Vigilance</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Placement</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Hostel</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Gallery</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">FAQs</li>
+              </Link>
             </ul>
           </div>
           <div className="min-w-28">
             <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               Quick Link
             </h1>
-            <ul className="text-[10px] md:text-xl">
-              <li>SWAYAM</li>
-              <li>SWAYAM Prabha</li>
-              <li>e-Yantra</li>
-              <li>Virtual Labs</li>
-              <li>FOSSEE</li>
-              <li>Spoken Tutorial</li>
-              <li>NDLI | e-SS</li>
-              <li>PDS | IRINS</li>
+            <ul className="text-[10px] md:text-lg font-extralight">
+              <Link href="">
+                <li className="hover:text-blue-400">SWAYAM</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">SWAYAM Prabha</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">e-Yantra</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Virtual Labs</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">FOSSEE</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Spoken Tutorial</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">NDLI | e-SS</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">PDS | IRINS</li>
+              </Link>
             </ul>
           </div>
           <div className="min-w-28">
             <h1 className="font-semibold text-[10px] md:text-4xl  mb-1 text-[#7FD2EF]">
               E-Resources
             </h1>
-            <ul className="text-[10px] md:text-xl">
-              <li>Moodle</li>
-              <li>NPTEL@IIITV</li>
-              <li>Matlab Online</li>
-              <li>Library Catalogue OPAC</li>
-              <li>Shodhganga | NDL</li>
-              <li>World eBook Library</li>
-              <li>Open Access Journals</li>
-              <li>Paramshavak</li>
+            <ul className="text-[8px] md:text-lg font-extralight ">
+              <Link href="">
+                <li className="hover:text-blue-400">Moodle</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">NPTEL@IIITV</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Matlab Online</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Library Catalogue </li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Shodhganga | NDL</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">World eBook Library</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Open Access Journals</li>
+              </Link>
+              <Link href="">
+                <li className="hover:text-blue-400">Paramshavak</li>
+              </Link>
             </ul>
           </div>
         </div>
