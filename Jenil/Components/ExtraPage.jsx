@@ -26,10 +26,10 @@ const ExtraPage = () => {
             x: 0,
             opacity: 1,
             duration: 0.5,
-            stagger: 0.5,
+            
             scrollTrigger: {
               trigger: ".row",
-              start: "top 80%", // Trigger animation when row enters viewport
+              start: "top 50%", // Trigger animation when row enters viewport
               toggleActions: "play none none none", // Play once
             },
           }
@@ -59,8 +59,8 @@ const ExtraPage = () => {
         </strong>
 
         {/* Row 1 */}
-        <div className="row md:ml-20 w-8/12 flex flex-row self-center  gap-2 z-20">
-          <div className="pl-16 ml-4 h-32 md:px-0 md:w-72 md:h-36 bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+        <div className="row md:ml-20 w-8/12 flex flex-row md:self-center  gap-2 z-20">
+          <div className="pl-16 ml-4 h-32 md:px-0 md:w-64 md:h-36 bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
             <p className="self-center text-white text-xl md:text-4xl font-bold pr-6">
               THE <br /> TOP
             </p>
@@ -74,8 +74,8 @@ const ExtraPage = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="row md:ml-80 w-8/12 flex flex-row self-center  gap-2 z-20">
-          <div className="pl-20 ml-4 h-32 md:px-0 md:w-72 md:h-36  bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+        <div className="row md:ml-80 w-8/12 flex flex-row md:self-center  gap-2 z-20">
+          <div className="pl-20 ml-4 h-32 md:px-0 md:w-64 md:h-36  bg-gradient-to-br from-[#68b2eb] to-[#001a3f] rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
             <p className="self-center text-xl md:text-4xl font-bold pr-6 text-right text-white">
               THE <br /> MOST
             </p>
@@ -89,8 +89,8 @@ const ExtraPage = () => {
         </div>
 
         {/* Row 3 */}
-        <div className="row md:ml-[40em] w-8/12 flex flex-row self-center  gap-2 text-right z-20">
-          <div className="pl-[120px] ml-4 h-32 md:px-0 md:w-72 md:h-36   bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
+        <div className="row md:ml-[40em] w-8/12 flex flex-row md:self-center  gap-2 text-right z-20">
+          <div className="pl-[120px] ml-4 h-32 md:px-0 md:w-64 md:h-36   bg-gradient-to-br from-[#68b2eb] to-[#001a3f]  rounded-tl-lg  rounded-br-lg  flex flex-row-reverse">
             <p className="self-center text-white  text-xl md:text-4xl font-bold pr-6">
               THE <br /> BEST
             </p>
@@ -102,7 +102,7 @@ const ExtraPage = () => {
             </span>
           </div>
         </div>
-       <Link className="self-center z-20 mt-2" href={"/stats"}><button className="-mr-10  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150">Placements Report</button></Link> 
+       <Link className="self-center z-20 mt-2" target="#" href={"/stats"}><button className="-mr-10  bg-[#001a3f] text-white hover:text-black px-4 py-3 mt-2 w-fit self-center z-20 rounded-xl hover:bg-cyan-300 active:scale-95 hover:scale-105 font-medium transition-all duration-150">Placements Report</button></Link> 
       </div>
     </div>
   );
