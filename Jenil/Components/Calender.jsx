@@ -71,7 +71,7 @@ const Calender = () => {
             <FaCloudSun className="md:text-4xl text-xl self-center" />
             <p className="self-center text-center text-[12px] md:text-xl font-medium">
               Autumn Semester <br />
-              2024-25
+              2023-24
             </p>
           </div>
         </Link>
