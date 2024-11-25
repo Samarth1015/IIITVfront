@@ -33,13 +33,13 @@ const Calender = () => {
 
   return (
     <div className="w-full h-screen flex flex-col justify-center">
-      <h1 className="text-center self-center text-2xl py-5 md:text-4xl text-[#20385a] font-medium">
+      <h1 className="text-center self-center text-xl py-5 md:text-4xl text-[#20385a] font-medium">
         Academic Calender
       </h1>
       {/* Underline Div */}
       <div
         ref={underlineRef}
-        className="w-3/12 h-1 rounded-xl bg-yellow-300 self-center"
+        className="md:w-3/12 w-7/12 h-1 rounded-xl bg-yellow-300 self-center"
       ></div>
       <div className="p flex gap-2 flex-col md:flex-row w-10/12  py-1 md:py-10 justify-center md:justify-evenly self-center">
         <Link
